@@ -1,0 +1,249 @@
+    /**
+     * (C) 2008-2012, Trapeze Switzerland GmbH. All rights reserved.
+     *
+     * Original model object: mhcc.app.dataprovider.model.atinterface.dstructs.operational_branch_at
+     *
+     * Automatically generated. DO NOT CHANGE THIS FILE MANUALLY!
+     *
+     */
+
+    syntax = "proto2";
+    package mhcc.app.protobuf.commons;
+    option java_outer_classname = "MultilingualSupport";
+
+     /**Multilingual support messages.
+     *
+     * General description for later on used locale key:
+     *
+     * locale key format: [language]_[country]_[variant]
+     *
+	 * The language argument is a valid ISO Language Code.
+	 * These codes are the lower-case, two-letter codes as defined by ISO-639.
+	 * You can find a full list of these codes at a number of sites, such as:
+	 * http://www.loc.gov/standards/iso639-2/englangn.html
+	 *
+	 * The country argument is a valid ISO Country Code.These
+	 * codes are the upper-case, two-letter codes as defined by ISO-3166.
+	 * You can find a full list of these codes at a number of sites, such as:
+	 * http://www.iso.ch/iso/en/prods-services/iso3166ma/02iso-3166-code-lists/list-en1.html
+	 *
+	 * The variant argument is a vendor or browser-specific code.
+	 * For example, use WIN for Windows, MAC for Macintosh, and POSIX for POSIX.
+	 * Where there are two variants, separate them with an underscore, and
+	 * put the most important one first. For example, a Traditional Spanish collation
+	 * might construct a locale with parameters for language, country and variant as:
+	 * "es", "ES", "Traditional_WIN".
+	 *
+     * If the language is missing, the string will begin with an underbar.
+     * If both the language and country fields are missing, this function
+     * will return the empty string, even if the variant field is filled in
+     * (you can't have a locale with just a variant-- the variant must accompany
+     * a valid language or country code).
+     * Examples: "en", "de_DE", "_GB", "en_US_WIN", "de__POSIX", "fr__MAC"
+     */
+
+    //Localised String
+
+    /** Helper Message representing multilingual value of type: string. */
+    message MultilingualString {
+        /** a value which is to be used in case no localised value(string) is provided for given locale. */
+        required string defaultValue = 1;
+        /** array of locale-value(string) pairs, as many items as many localised values provided */
+        repeated LocalisedStringItem item = 3;
+    }
+
+    /** Helper Message representing multilingual value of type: string array. */
+    message MultilingualStringArray {
+        /** a value which is to be used in case no localised value (string array) is provided for given locale. */
+        repeated string defaultValue = 2;
+        /** array of locale-value(string array) pairs, as many items as many localised values provided */
+        repeated LocalisedStringItemArray item = 3;
+    }
+
+    /** Helper Message representing localised string value */
+    message LocalisedStringItem {
+        /** locale key based on ISO-639*/
+        required string localeKey = 1;
+        /** localised value(string) */
+        required string value = 2;
+    }
+
+    /** Helper Message representing localised string array value*/
+    message LocalisedStringItemArray {
+        /** locale key based on ISO-639*/
+        required string localeKey = 1;
+        /** localised value(string array) */
+        repeated string valueArray = 3;
+    }
+
+    //Localised int32
+
+    /** Helper Message representing multilingual value of type: int32. */
+    message MultilingualInt32 {
+        /** a value which is to be used in case no localised value(int32) is provided for given locale. */
+        required int32 defaultValue = 1;
+        /** array of locale-value(int32) pairs, as many items as many localised values provided */
+        repeated LocalisedInt32Item item = 3;
+    }
+
+    /** Helper Message representing multilingual value of type: int32 array. */
+    message MultilingualInt32Array {
+        /** a value which is to be used in case no localised value (int32 array) is provided for given locale. */
+        repeated int32 defaultValue = 2;
+        /** array of locale-value(int32 array) pairs, as many items as many localised values provided */
+        repeated LocalisedInt32ItemArray item = 3;
+    }
+
+    /** Helper Message representing localised int32 value */
+    message LocalisedInt32Item {
+        /** locale key based on ISO-639*/
+        required string localeKey = 1;
+        /** localised value(int32) */
+        required int32 value = 2;
+    }
+
+    /** Helper Message representing localised int32 array value*/
+    message LocalisedInt32ItemArray {
+        /** locale key based on ISO-639*/
+        required string localeKey = 1;
+        /** localised value(int32 array) */
+        repeated int32 valueArray = 3;
+    }
+
+   //Localised int64
+
+    /** Helper Message representing multilingual value of type: int64. */
+    message MultilingualInt64 {
+        /** a value which is to be used in case no localised value(int64) is provided for given locale. */
+        required int64 defaultValue = 1;
+        /** array of locale-value(int64) pairs, as many items as many localised values provided */
+        repeated LocalisedInt64Item item = 3;
+    }
+
+    /** Helper Message representing multilingual value of type: int64 array. */
+    message MultilingualInt64Array {
+        /** a value which is to be used in case no localised value (int64 array) is provided for given locale. */
+        repeated int64 defaultValue = 2;
+        /** array of locale-value(int64 array) pairs, as many items as many localised values provided */
+        repeated LocalisedInt64ItemArray item = 3;
+    }
+
+    /** Helper Message representing localised int64 value */
+    message LocalisedInt64Item {
+        /** locale key based on ISO-639*/
+        required string localeKey = 1;
+        /** localised value(int64) */
+        required int64 value = 2;
+    }
+
+    /** Helper Message representing localised int64 array value*/
+    message LocalisedInt64ItemArray {
+        /** locale key based on ISO-639*/
+        required string localeKey = 1;
+        /** localised value(int64 array) */
+        repeated int64 valueArray = 3;
+    }
+
+    //Localised uint32
+
+    /** Helper Message representing multilingual value of type: uint32. */
+    message MultilingualUint32 {
+        /** a value which is to be used in case no localised value(uint32) is provided for given locale. */
+        required uint32 defaultValue = 1;
+        /** array of locale-value(uint32) pairs, as many items as many localised values provided */
+        repeated LocalisedUint32Item item = 3;
+    }
+
+    /** Helper Message representing multilingual value of type: uint32 array. */
+    message MultilingualUint32Array {
+        /** a value which is to be used in case no localised value (uint32 array) is provided for given locale. */
+        repeated uint32 defaultValue = 2;
+        /** array of locale-value(uint32 array) pairs, as many items as many localised values provided */
+        repeated LocalisedUint32ItemArray item = 3;
+    }
+
+    /** Helper Message representing localised uint32 value */
+    message LocalisedUint32Item {
+        /** locale key based on ISO-639*/
+        required string localeKey = 1;
+        /** localised value(uint32) */
+        required uint32 value = 2;
+    }
+
+    /** Helper Message representing localised uint32 array value*/
+    message LocalisedUint32ItemArray {
+        /** locale key based on ISO-639*/
+        required string localeKey = 1;
+        /** localised value(uint32 array) */
+        repeated uint32 valueArray = 3;
+    }
+
+   //Localised uint64
+
+    /** Helper Message representing multilingual value of type: uint64. */
+    message MultilingualUint64 {
+        /** a value which is to be used in case no localised value(uint64) is provided for given locale. */
+        required uint64 defaultValue = 1;
+        /** array of locale-value(uint64) pairs, as many items as many localised values provided */
+        repeated LocalisedUint64Item item = 3;
+    }
+
+    /** Helper Message representing multilingual value of type: uint64 array. */
+    message MultilingualUint64Array {
+        /** a value which is to be used in case no localised value (uint64 array) is provided for given locale. */
+        repeated uint64 defaultValue = 2;
+        /** array of locale-value(uint64 array) pairs, as many items as many localised values provided */
+        repeated LocalisedUint64ItemArray item = 3;
+    }
+
+    /** Helper Message representing localised uint64 value */
+    message LocalisedUint64Item {
+        /** locale key based on ISO-639*/
+        required string localeKey = 1;
+        /** localised value(uint64) */
+        required uint64 value = 2;
+    }
+
+    /** Helper Message representing localised uint64 array value*/
+    message LocalisedUint64ItemArray {
+        /** locale key based on ISO-639*/
+        required string localeKey = 1;
+        /** localised value(uint64 array) */
+        repeated uint64 valueArray = 3;
+    }
+
+   //Localised double
+
+    /** Helper Message representing multilingual value of type: double. */
+    message MultilingualDouble {
+        /** a value which is to be used in case no localised value(double) is provided for given locale. */
+        required double defaultValue = 1;
+        /** array of locale-value(double) pairs, as many items as many localised values provided */
+        repeated LocalisedDoubleItem item = 3;
+    }
+
+    /** Helper Message representing multilingual value of type: double array. */
+    message MultilingualDoubleArray {
+        /** a value which is to be used in case no localised value (double array) is provided for given locale. */
+        repeated double defaultValue = 2;
+        /** array of locale-value(double array) pairs, as many items as many localised values provided */
+        repeated LocalisedDoubleItemArray item = 3;
+    }
+
+    /** Helper Message representing localised double value */
+    message LocalisedDoubleItem {
+        /** locale key based on ISO-639*/
+        required string localeKey = 1;
+        /** localised value(double) */
+        required double value = 2;
+    }
+
+    /** Helper Message representing localised double array value*/
+    message LocalisedDoubleItemArray {
+        /** locale key based on ISO-639*/
+        required string localeKey = 1;
+        /** localised value(double array) */
+        repeated double valueArray = 3;
+    }
+
+  

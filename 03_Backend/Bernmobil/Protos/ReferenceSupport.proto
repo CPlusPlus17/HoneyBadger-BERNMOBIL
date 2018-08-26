@@ -1,0 +1,30 @@
+    /**
+     * (C) 2008-2012, Trapeze Switzerland GmbH. All rights reserved.
+     *
+     * Original model object: mhcc.app.dataprovider.model.atinterface.dstructs.operational_branch_at
+     *
+     * Automatically generated. DO NOT CHANGE THIS FILE MANUALLY!
+     *
+     */
+
+    syntax = "proto2";
+    package mhcc.app.protobuf.commons;
+    option java_outer_classname = "ReferenceSupport";
+
+    /** Helper Message representing a generic reference. */
+    message Reference {
+        /** Type reference */
+        required int32 structTag = 1;
+        /** Object reference */
+        required sint64 duid = 2;
+    }
+
+    /** Helper Message representing a generic value. */
+    message ValueObject {
+        /** Type reference */
+        required int32 structTag = 1;
+        /** Serialized object instance */
+        required bytes value = 2;
+    }
+
+  

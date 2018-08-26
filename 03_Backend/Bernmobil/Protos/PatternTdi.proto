@@ -1,0 +1,103 @@
+    /**
+     * (C) 2008-2012, Trapeze Switzerland GmbH. All rights reserved.
+     *
+     * Original model object: mhcc.app.dataprovider.model.tdiinterface.dstructs.pattern_tdi
+     *
+     * Automatically generated. DO NOT CHANGE THIS FILE MANUALLY!
+     *
+     */
+
+    syntax = "proto2";
+    package mhcc.app.dataprovider.model.tdiinterface.dstructs;
+    option java_outer_classname = "PatternTdiDTO";
+
+    import "MultilingualSupport.proto";
+    import "ReferenceSupport.proto";
+
+        /**            
+    Each route has a number of directed patterns.
+Patterns are constructed from links, and define the geographical extent of a trip.
+In the extreme, the route&rsquo;s shortname (as visible to the passenger) might even be
+overwritten in a path-specific way.    
+        */
+
+    /** structTag=0xc528 */
+    message PatternTdi {
+
+        /**            
+        * Identifier guaranteed to be unique within a single deployment, i.e. not a
+        * globally unique identifier (GUID).    
+        */
+        //TYPE-DESC: Duid sint64
+        //TYPE-CONST: MIN -9223372036854775807
+        //TYPE-CONST: MAX 9223372036854775807
+        required sint64 duid = 0x0001;
+
+        /**            
+        * Time stamp for the (last) time the object was created or updated.    
+        */
+        //TYPE-DESC: AbsoluteTimeMillis sint64
+        required sint64 last_modification_timestamp = 0x0002;
+
+        /**            
+        * Determines whether this object is marked as 'deleted' in a logical sense.    
+        */
+        required bool is_deleted = 0x0003;
+
+        /**            
+        * The type of pattern.    
+        */
+        //TYPE-DESC: PatternType uint32
+        //TYPE-CONST: NORMAL 1
+        //TYPE-CONST: PULL_OUT 2
+        //TYPE-CONST: PULL_IN 3
+        //TYPE-CONST: EXTRA 4
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 0
+        required uint32 type = 0x0050;
+
+        /**            
+        * The short name of the pattern.    
+        */
+        //TYPE-DESC: UtfString string
+        required string short_name = 0x0051;
+
+        /**            
+        * The long name of the pattern.    
+        */
+        //TYPE-DESC: UtfString string
+        optional string long_name = 0x0052;
+
+        /**            
+        * The passenger name of the pattern.    
+        */
+        //TYPE-DESC: UtfString string
+        optional mhcc.app.protobuf.commons.MultilingualString multilingual_passenger_name = 0x0053;
+
+        /**            
+        * The route that that this pattern is associated with.    
+        */
+        //TYPE: RouteTdi
+        required mhcc.app.protobuf.commons.Reference route_duid = 0x0054;
+
+        /**            
+        * The direction of the pattern with respect to its route.    
+        */
+        //TYPE-DESC: RouteDirection uint32
+        //TYPE-CONST: NO_DIRECTION 0
+        //TYPE-CONST: DIRECTION_A 1
+        //TYPE-CONST: DIRECTION_B 2
+        //TYPE-CONST: DIRECTION_A_AND_B 3
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 0
+        required uint32 direction = 0x0055;
+
+        /**            
+        * The stop points along the pattern.    
+        */
+        //TYPE: StopPointTdi
+        repeated mhcc.app.protobuf.commons.Reference stop_points_duids = 0x0056;
+    
+    
+    }
+  

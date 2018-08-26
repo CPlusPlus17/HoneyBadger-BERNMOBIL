@@ -1,0 +1,51 @@
+    /**
+     * (C) 2008-2012, Trapeze Switzerland GmbH. All rights reserved.
+     *
+     * Original model object: mhcc.app.dataprovider.model.tdiinterface.dstructs.trip_tdi
+     *
+     * Automatically generated. DO NOT CHANGE THIS FILE MANUALLY!
+     *
+     */
+
+    syntax = "proto2";
+    package mhcc.app.dataprovider.model.tdiinterface.dstructs;
+    option java_outer_classname = "TripTdiDTO";
+
+
+        /**            
+    A trip is only for creating unique references between a vehicle and its stop passages.
+It cannot be fetched by itself (there is no URL for trip queries).    
+        */
+
+    /** structTag=0xc527 */
+    message TripTdi {
+
+        /**            
+        * Identifier guaranteed to be unique within a single deployment, i.e. not a
+        * globally unique identifier (GUID).    
+        */
+        //TYPE-DESC: Duid sint64
+        //TYPE-CONST: MIN -9223372036854775807
+        //TYPE-CONST: MAX 9223372036854775807
+        required sint64 duid = 0x0001;
+
+        /**            
+        * Time stamp for the (last) time the object was created or updated.    
+        */
+        //TYPE-DESC: AbsoluteTimeMillis sint64
+        required sint64 last_modification_timestamp = 0x0002;
+
+        /**            
+        * Determines whether this object is marked as 'deleted' in a logical sense.    
+        */
+        required bool is_deleted = 0x0003;
+
+        /**            
+        * dummy attribute because we cannot have any empty structs (why?)    
+        */
+        //TYPE-DESC: UtfString string
+        required string run_name = 0x0020;
+    
+    
+    }
+  

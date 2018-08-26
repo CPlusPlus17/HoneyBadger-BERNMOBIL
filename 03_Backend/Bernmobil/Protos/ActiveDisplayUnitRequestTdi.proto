@@ -1,0 +1,173 @@
+    /**
+     * (C) 2008-2012, Trapeze Switzerland GmbH. All rights reserved.
+     *
+     * Original model object: mhcc.app.dataprovider.model.tdiinterface.dstructs.active_display_unit_request_tdi
+     *
+     * Automatically generated. DO NOT CHANGE THIS FILE MANUALLY!
+     *
+     */
+
+    syntax = "proto2";
+    package mhcc.app.dataprovider.model.tdiinterface.dstructs;
+    option java_outer_classname = "ActiveDisplayUnitRequestTdiDTO";
+
+
+        /**            
+    The active display unit provides status information about a fixed display unit.    
+        */
+
+    /** structTag=0xc52d */
+    message ActiveDisplayUnitRequestTdi {
+
+        /**            
+        * Identifier guaranteed to be unique within a single deployment, i.e. not a
+        * globally unique identifier (GUID).    
+        */
+        //TYPE-DESC: Duid sint64
+        //TYPE-CONST: MIN -9223372036854775807
+        //TYPE-CONST: MAX 9223372036854775807
+        required sint64 duid = 0x0001;
+
+        /**            
+        * Time stamp for the (last) time the object was created or updated.    
+        */
+        //TYPE-DESC: AbsoluteTimeMillis sint64
+        required sint64 last_modification_timestamp = 0x0002;
+
+        /**            
+        * Determines whether this object is marked as 'deleted' in a logical sense.    
+        */
+        required bool is_deleted = 0x0003;
+
+        /**            
+        * short name of fixed display unit    
+        */
+        //TYPE-DESC: UtfString string
+        required string short_name = 0x0020;
+
+        /**            
+        * version of software installed on the device    
+        */
+        //TYPE-DESC: UtfString string
+        optional string sw_version = 0x0021;
+
+        /**            
+        * version of data deployed to the device
+        * (base version of currently used reference data)    
+        */
+        //TYPE-DESC: UtfString string
+        optional string data_version = 0x0022;
+
+        /**            
+        * URL from where to obtain a preview
+        * (can be used by the dispatcher client)    
+        */
+        //TYPE-DESC: Url string
+        //TYPE-CONST: MAX-LENGTH 255
+        optional string preview_url = 0x0023;
+
+        /**            
+        * current IP address as reported by the display
+        * (can be used e.g. to establish an SSH maintenance session)    
+        */
+        //TYPE-DESC: IpAddress string
+        //TYPE-CONST: MAX-LENGTH 20
+        optional string current_ip = 0x0030;
+
+        /**            
+        * width of the screen (in pixels) as reported by the display    
+        */
+        //TYPE-DESC: SizePx uint32
+        //TYPE-CONST: INVALID 65533
+        //TYPE-CONST: NOTHING 0
+        //TYPE-CONST: MIN 1
+        //TYPE-CONST: MAX 65532
+        optional uint32 width = 0x0031;
+
+        /**            
+        * heigth of the screen (in pixels) as reported by the display    
+        */
+        //TYPE-DESC: SizePx uint32
+        //TYPE-CONST: INVALID 65533
+        //TYPE-CONST: NOTHING 0
+        //TYPE-CONST: MIN 1
+        //TYPE-CONST: MAX 65532
+        optional uint32 height = 0x0032;
+
+        /**            
+        * number of rows as reported by the display    
+        */
+        //TYPE-DESC: Count uint64
+        //TYPE-CONST: INVALID 1000000001
+        //TYPE-CONST: NOTHING 1000000002
+        //TYPE-CONST: OVERFLOW 1000000000
+        //TYPE-CONST: MIN 0
+        //TYPE-CONST: MAX 999999999
+        optional uint64 nof_rows = 0x0033;
+
+        /**            
+        * current timestamp as reported by the display    
+        */
+        //TYPE-DESC: AbsoluteTime uint64
+        //TYPE-CONST: INVALID 4000000003
+        //TYPE-CONST: OVERFLOW 4000000000
+        optional uint64 last_seen = 0x0034;
+
+        /**            
+        * is the display darkened as a result of a dispatch action?    
+        */
+        //TYPE-DESC: YesNo uint32
+        //TYPE-CONST: NO 0
+        //TYPE-CONST: YES 1
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 254
+        //TYPE-CONST: UNDEFINED 255
+        optional uint32 is_darkened = 0x0035;
+
+        /**            
+        * overall health    
+        */
+        //TYPE-DESC: DeviceHealthStatus uint32
+        //TYPE-CONST: OPERATING 1
+        //TYPE-CONST: NON_OPERATING 2
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 0
+        optional uint32 health_status = 0x0036;
+
+        /**            
+        * detailed health    
+        */
+        //TYPE-DESC: ActiveDisplayStatus uint32
+        //TYPE-CONST: LOGGEDON 1
+        //TYPE-CONST: LOGGEDOFF 2
+        //TYPE-CONST: RADIO_FAULT 3
+        //TYPE-CONST: MANNUAL_SWITCHED_OFF 4
+        //TYPE-CONST: BAD_RADIO 5
+        //TYPE-CONST: OVERLOADED 6
+        //TYPE-CONST: DATA_SUPPLY_ERROR 7
+        //TYPE-CONST: INITIALIZING 8
+        //TYPE-CONST: NO_RESPONSE 9
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 0
+        optional uint32 health_status_detailed = 0x0037;
+
+        /**            
+        * status of radio communication    
+        */
+        //TYPE-DESC: RadioParticipantStatus uint32
+        //TYPE-CONST: NOT_CONNECTED 0
+        //TYPE-CONST: CONNECTED 1
+        //TYPE-CONST: RADIO_FAULT 2
+        optional uint32 radio_status = 0x0038;
+
+        /**            
+        * status of shock sensor    
+        */
+        //TYPE-DESC: ShockSensorStatus uint32
+        //TYPE-CONST: SILENT 0
+        //TYPE-CONST: TRIGGERED 1
+        optional uint32 shock_sensor_status = 0x0039;
+    
+    
+    }
+  

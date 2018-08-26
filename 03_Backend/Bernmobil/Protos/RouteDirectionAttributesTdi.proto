@@ -1,0 +1,42 @@
+    /**
+     * (C) 2008-2012, Trapeze Switzerland GmbH. All rights reserved.
+     *
+     * Original model object: mhcc.app.dataprovider.model.tdiinterface.dstructs.route_direction_attributes_tdi
+     *
+     * Automatically generated. DO NOT CHANGE THIS FILE MANUALLY!
+     *
+     */
+
+    syntax = "proto2";
+    package mhcc.app.dataprovider.model.tdiinterface.dstructs;
+    option java_outer_classname = "RouteDirectionAttributesTdiDTO";
+
+
+        /**            
+    The direction-specific route attributes.    
+        */
+
+    /** structTag=0xc523 */
+    message RouteDirectionAttributesTdi {
+
+        /**            
+        * The route's direction to which these attributes belong    
+        */
+        //TYPE-DESC: RouteDirection uint32
+        //TYPE-CONST: NO_DIRECTION 0
+        //TYPE-CONST: DIRECTION_A 1
+        //TYPE-CONST: DIRECTION_B 2
+        //TYPE-CONST: DIRECTION_A_AND_B 3
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 0
+        required uint32 direction = 0x0020;
+
+        /**            
+        * The direction-specific route name.    
+        */
+        //TYPE-DESC: UtfString string
+        optional string direction_name = 0x0021;
+    
+    
+    }
+  

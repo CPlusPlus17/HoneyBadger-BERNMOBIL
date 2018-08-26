@@ -1,0 +1,239 @@
+    /**
+     * (C) 2008-2012, Trapeze Switzerland GmbH. All rights reserved.
+     *
+     * Original model object: mhcc.app.dataprovider.model.tdiinterface.dstructs.stop_passage_tdi
+     *
+     * Automatically generated. DO NOT CHANGE THIS FILE MANUALLY!
+     *
+     */
+
+    syntax = "proto2";
+    package mhcc.app.dataprovider.model.tdiinterface.dstructs;
+    option java_outer_classname = "StopPassageTdiDTO";
+
+    import "MultilingualSupport.proto";
+    import "ReferenceSupport.proto";
+    import "StopPassageDataTdi.proto";
+
+        /**            
+    The stop passage contains the planned and predicted data for a passage at a particular stop point.    
+        */
+
+    /** structTag=0xc524 */
+    message StopPassageTdi {
+
+        /**            
+        * Identifier guaranteed to be unique within a single deployment, i.e. not a
+        * globally unique identifier (GUID).    
+        */
+        //TYPE-DESC: Duid sint64
+        //TYPE-CONST: MIN -9223372036854775807
+        //TYPE-CONST: MAX 9223372036854775807
+        required sint64 duid = 0x0001;
+
+        /**            
+        * Time stamp for the (last) time the object was created or updated.    
+        */
+        //TYPE-DESC: AbsoluteTimeMillis sint64
+        required sint64 last_modification_timestamp = 0x0002;
+
+        /**            
+        * Determines whether this object is marked as 'deleted' in a logical sense.    
+        */
+        required bool is_deleted = 0x0003;
+
+        /**            
+        * The route on which the vehicle passes at the stop point.    
+        */
+        //TYPE: RouteTdi
+        required mhcc.app.protobuf.commons.Reference route_duid = 0x0020;
+
+        /**            
+        * The direction of the pattern underlying the trip.    
+        */
+        //TYPE-DESC: RouteDirection uint32
+        //TYPE-CONST: NO_DIRECTION 0
+        //TYPE-CONST: DIRECTION_A 1
+        //TYPE-CONST: DIRECTION_B 2
+        //TYPE-CONST: DIRECTION_A_AND_B 3
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 0
+        required uint32 direction = 0x0021;
+
+        /**            
+        * The trip on which the vehicle passes at the stop point.    
+        */
+        //TYPE: TripTdi
+        optional mhcc.app.protobuf.commons.Reference trip_duid = 0x0022;
+
+        /**            
+        * The stop point at which the vehicle passes.    
+        */
+        //TYPE: StopPointTdi
+        optional mhcc.app.protobuf.commons.Reference stop_point_duid = 0x0023;
+
+        /**            
+        * The vehicle that passes passes.    
+        */
+        //TYPE: VehicleTdi
+        optional mhcc.app.protobuf.commons.Reference vehicle_duid = 0x0024;
+
+        /**            
+        * The data structure containing fields relevant for arrival.
+        * At the start of the trip, no arrival information may be available.    
+        */
+        optional mhcc.app.dataprovider.model.tdiinterface.dstructs.StopPassageDataTdi arrival_data = 0x0025;
+
+        /**            
+        * The data structure containing fields relevant for departure.
+        * At the end of the trip, no departure information may be available    .    
+        */
+        optional mhcc.app.dataprovider.model.tdiinterface.dstructs.StopPassageDataTdi departure_data = 0x0026;
+
+        /**            
+        * Trip-specific special text (valid for both arrival and departure).    
+        */
+        //TYPE-DESC: UtfString string
+        optional mhcc.app.protobuf.commons.MultilingualString multilingual_special_text = 0x0027;
+
+        /**            
+        * The current congestion level of the vehicle.    
+        */
+        //TYPE-DESC: CongestionLevel uint32
+        //TYPE-CONST: CONGESTION_LEVEL_NORMAL 1
+        //TYPE-CONST: CONGESTION_LEVEL_SLIGHT 2
+        //TYPE-CONST: CONGESTION_LEVEL_STOP_AND_GO 3
+        //TYPE-CONST: CONGESTION_LEVEL_SEVERE 4
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 0
+        optional uint32 congestion_level = 0x0028;
+
+        /**            
+        * The accuracy level for the arrival and departure predictions.    
+        */
+        //TYPE-DESC: PredictionAccuracyLevel uint32
+        //TYPE-CONST: SCHEDULED_ONLY 1
+        //TYPE-CONST: LOGON_BASED 2
+        //TYPE-CONST: ADHERENCE_BASED 3
+        //TYPE-CONST: HISTORY_BASED 4
+        //TYPE-CONST: INVALID 65533
+        //TYPE-CONST: NOTHING 0
+        required uint32 accuracy_level = 0x0029;
+
+        /**            
+        * The status of the stop passage.    
+        */
+        //TYPE-DESC: StopPassageStatus uint32
+        //TYPE-CONST: PLANNED 0
+        //TYPE-CONST: PREDICTED 1
+        //TYPE-CONST: ARRIVING 2
+        //TYPE-CONST: STOPPING 3
+        //TYPE-CONST: DEPARTED 4
+        //TYPE-CONST: PASSED 5
+        //TYPE-CONST: INVALID 253
+        required uint32 status = 0x002a;
+
+        /**            
+        * Indication for the vehicle's accessibility
+        * (consumers should check also the stop point for accessibility!)    
+        */
+        //TYPE-DESC: YesNo uint32
+        //TYPE-CONST: NO 0
+        //TYPE-CONST: YES 1
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 254
+        //TYPE-CONST: UNDEFINED 255
+        optional uint32 is_accessible = 0x002b;
+
+        /**            
+        * The latitude of the vehicle's last-reported (last-corrected/estimated) location.    
+        */
+        //TYPE-DESC: AbsoluteLatitude sint32
+        //TYPE-CONST: INVALID 324000002
+        //TYPE-CONST: NOTHING 324000003
+        //TYPE-CONST: UNDEFINED 324000004
+        //TYPE-CONST: UNDERFLOW -324000001
+        //TYPE-CONST: OVERFLOW 324000001
+        //TYPE-CONST: MIN -324000000
+        //TYPE-CONST: MAX 324000000
+        optional sint32 latitude = 0x002c;
+
+        /**            
+        * The latitude of the vehicle's last-reported (last-corrected/estimated) location.    
+        */
+        //TYPE-DESC: AbsoluteLongitude sint32
+        //TYPE-CONST: INVALID 648000002
+        //TYPE-CONST: NOTHING 648000003
+        //TYPE-CONST: UNDEFINED 648000004
+        //TYPE-CONST: UNDERFLOW -648000001
+        //TYPE-CONST: OVERFLOW 648000001
+        //TYPE-CONST: MIN -648000000
+        //TYPE-CONST: MAX 648000000
+        optional sint32 longitude = 0x002d;
+
+        /**            
+        * The bearing of the vehicle's last-reported (last-corrected/estimated) location.    
+        */
+        //TYPE-DESC: CompassBearing uint32
+        //TYPE-CONST: INVALID 65533
+        //TYPE-CONST: NOTHING 65534
+        //TYPE-CONST: UNDEFINED 65535
+        //TYPE-CONST: NORTH 0
+        //TYPE-CONST: EAST 90
+        //TYPE-CONST: SOUTH 180
+        //TYPE-CONST: WEST 270
+        //TYPE-CONST: DEFAULT 0
+        //TYPE-CONST: MIN 0
+        //TYPE-CONST: MAX 359
+        optional uint32 bearing = 0x002e;
+
+        /**            
+        * The pattern on which the vehicle passes.    
+        */
+        //TYPE: PatternTdi
+        optional mhcc.app.protobuf.commons.Reference pattern_duid = 0x002f;
+
+        /**            
+        * Indication for the vehicle's equipment    
+        */
+        //TYPE-DESC: YesNo uint32
+        //TYPE-CONST: NO 0
+        //TYPE-CONST: YES 1
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 254
+        //TYPE-CONST: UNDEFINED 255
+        optional uint32 has_bike_rack = 0x0030;
+
+        /**            
+        * The vehicle's category (useful for selecting an icon to display).    
+        */
+        //TYPE-DESC: VehicleCategory uint32
+        //TYPE-CONST: TRAM 1
+        //TYPE-CONST: SUBWAY 2
+        //TYPE-CONST: RAIL 3
+        //TYPE-CONST: LIGHTRAIL 4
+        //TYPE-CONST: BUS 5
+        //TYPE-CONST: TROLLEYBUS 6
+        //TYPE-CONST: RAPIDBUS 7
+        //TYPE-CONST: FERRY 8
+        //TYPE-CONST: CABLE 9
+        //TYPE-CONST: GONDOLA 10
+        //TYPE-CONST: FUNICULAR 11
+        //TYPE-CONST: HELICOPTER 12
+        //TYPE-CONST: AIRPLANE 13
+        //TYPE-CONST: COMMUTER 14
+        //TYPE-CONST: ALL 252
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 254
+        //TYPE-CONST: UNDEFINED 255
+        optional uint32 category = 0x0031;
+
+        /**            
+        * The entities (stop points, stops, ...) which are affected by this particular stop passage    
+        */
+        //TYPE: PassageEntityTdi
+        repeated mhcc.app.protobuf.commons.Reference affected_entities_duids = 0x0032;
+    
+    
+    }
+  

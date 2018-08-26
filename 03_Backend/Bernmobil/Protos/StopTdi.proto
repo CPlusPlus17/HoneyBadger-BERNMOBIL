@@ -1,0 +1,104 @@
+    /**
+     * (C) 2008-2012, Trapeze Switzerland GmbH. All rights reserved.
+     *
+     * Original model object: mhcc.app.dataprovider.model.tdiinterface.dstructs.stop_tdi
+     *
+     * Automatically generated. DO NOT CHANGE THIS FILE MANUALLY!
+     *
+     */
+
+    syntax = "proto2";
+    package mhcc.app.dataprovider.model.tdiinterface.dstructs;
+    option java_outer_classname = "StopTdiDTO";
+
+
+        /**            
+    Stop for display at certain zoom levels.    
+        */
+
+    /** structTag=0xc520 */
+    message StopTdi {
+
+        /**            
+        * Identifier guaranteed to be unique within a single deployment, i.e. not a
+        * globally unique identifier (GUID).    
+        */
+        //TYPE-DESC: Duid sint64
+        //TYPE-CONST: MIN -9223372036854775807
+        //TYPE-CONST: MAX 9223372036854775807
+        required sint64 duid = 0x0001;
+
+        /**            
+        * Time stamp for the (last) time the object was created or updated.    
+        */
+        //TYPE-DESC: AbsoluteTimeMillis sint64
+        required sint64 last_modification_timestamp = 0x0002;
+
+        /**            
+        * Determines whether this object is marked as 'deleted' in a logical sense.    
+        */
+        required bool is_deleted = 0x0003;
+
+        /**            
+        * The unique identifier of the stop.    
+        */
+        //TYPE-DESC: StopNumber uint64
+        //TYPE-CONST: INVALID 2147483645
+        //TYPE-CONST: NOTHING 0
+        //TYPE-CONST: UNDEFINED 2147483647
+        //TYPE-CONST: MIN 1
+        //TYPE-CONST: MAX 999999
+        required uint64 number = 0x0020;
+
+        /**            
+        * The short name of the stop.    
+        */
+        //TYPE-DESC: UtfString string
+        required string short_name = 0x0021;
+
+        /**            
+        * The long name of the stop.    
+        */
+        //TYPE-DESC: UtfString string
+        optional string long_name = 0x0022;
+
+        /**            
+        * The latitude of the stop's location.    
+        */
+        //TYPE-DESC: AbsoluteLatitude sint32
+        //TYPE-CONST: INVALID 324000002
+        //TYPE-CONST: NOTHING 324000003
+        //TYPE-CONST: UNDEFINED 324000004
+        //TYPE-CONST: UNDERFLOW -324000001
+        //TYPE-CONST: OVERFLOW 324000001
+        //TYPE-CONST: MIN -324000000
+        //TYPE-CONST: MAX 324000000
+        required sint32 latitude = 0x0023;
+
+        /**            
+        * The longitude of the stop's location.    
+        */
+        //TYPE-DESC: AbsoluteLongitude sint32
+        //TYPE-CONST: INVALID 648000002
+        //TYPE-CONST: NOTHING 648000003
+        //TYPE-CONST: UNDEFINED 648000004
+        //TYPE-CONST: UNDERFLOW -648000001
+        //TYPE-CONST: OVERFLOW 648000001
+        //TYPE-CONST: MIN -648000000
+        //TYPE-CONST: MAX 648000000
+        required sint32 longitude = 0x0024;
+
+        /**            
+        * The altitude of the stop's location.    
+        */
+        //TYPE-DESC: AbsoluteDistance uint64
+        //TYPE-CONST: INVALID 4000000003
+        //TYPE-CONST: UNDEFINED 4000000002
+        //TYPE-CONST: OVERFLOW 4000000000
+        //TYPE-CONST: MIN 0
+        //TYPE-CONST: MAX 3999999999
+        optional uint64 altitude = 0x0025;
+    
+    
+    }
+  

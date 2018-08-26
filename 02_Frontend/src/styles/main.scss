@@ -1,0 +1,207 @@
+@import "leaflet.scss";
+
+.leaflet-container {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+}
+
+/*small reset*/
+body,
+document,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica";
+}
+
+#App {
+    position: relative;
+    z-index: 1;
+}
+
+.home {
+    background: #df2b3f;
+    text-align: center;
+    color: white;
+    h1 {
+        font-size: 60px;
+        color: white;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    p.points {
+        margin-bottom: 30px;
+        margin-top: -5px;
+        text-align: center;
+    }
+    .shopButton {
+        padding: 16px 0px 16px 0px;
+        width: 210px;
+        display: inline-block;
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+        background: #bf052f;
+    }
+
+    .achievementButton {
+        background: #bf052f;
+        border-radius: 50%;
+        width: 213px;
+        height: 213px;
+        display: inline-block;
+        margin-top: 40px;
+        .bigText {
+            b {
+                font-weight: 600;
+            }
+            span {
+                font-weight: 300;
+            }
+            margin-top: 69px;
+        }
+        svg.ribbon {
+            margin-top: 48px;
+        }
+    }
+}
+
+.popup {
+    background-color: rgba(#f30037, 0.8);
+    position: absolute;
+    height: 90vh;
+    width: 90vw;
+    z-index: 999;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 46%;
+
+    .popupinnerWrapper {
+        position: relative;
+
+        .popupExitButton {
+            font-weight: 700;
+            font-family: sans-serif;
+            font-size: 30px;
+            position: absolute;
+            top: 0px;
+            right: 40px;
+            cursor: pointer;
+        }
+
+        h3{
+            color: white;
+            font-size: 30px;
+            margin: 20px;
+        }
+
+        h5 {
+            color: white;
+            margin-left: 20px;
+        }
+    }
+}
+
+path.leaflet-interactive {
+    stroke: none !important;
+}
+
+.formset.special {
+    display: inline-block;
+    position: absolute;
+    z-index: 10;
+    right: 40px;
+    top: 10px;
+
+    input#specialFilter {
+        display: none;
+    }
+
+    .container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    .checkmark {
+        position: absolute;
+        top: 0;
+        right: -30px;
+        height: 25px;
+        width: 25px;
+        background-color: #eee;
+    }
+
+    :hover input ~ .checkmark {
+        background-color: #ccc;
+    }
+
+    input:checked ~ .checkmark {
+        background-color: #df2b3f;
+    }
+
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    input:checked ~ .checkmark:after {
+        display: block;
+    }
+
+    .checkmark:after {
+        left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+}
+
+footer {
+    z-index: 2;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background-color: #ffffff;
+    width: 100%;
+    .footerButtons {
+        display: flex;
+        .mainButton {
+            position: relative;
+            background-color: #ffffff;
+            font-size: 15px;
+            flex: 3;
+            margin: 3px;
+            height: 60px;
+            border-collapse: separate;
+            svg {
+                margin-top: 20px;
+                position: absolute;
+                left: 50%;
+                transform: translate(-50%);
+            }
+        }
+    }
+}

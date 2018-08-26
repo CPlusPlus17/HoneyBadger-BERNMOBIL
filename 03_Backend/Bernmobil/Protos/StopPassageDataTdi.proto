@@ -1,0 +1,89 @@
+    /**
+     * (C) 2008-2012, Trapeze Switzerland GmbH. All rights reserved.
+     *
+     * Original model object: mhcc.app.dataprovider.model.tdiinterface.dstructs.stop_passage_data_tdi
+     *
+     * Automatically generated. DO NOT CHANGE THIS FILE MANUALLY!
+     *
+     */
+
+    syntax = "proto2";
+    package mhcc.app.dataprovider.model.tdiinterface.dstructs;
+    option java_outer_classname = "StopPassageDataTdiDTO";
+
+    import "MultilingualSupport.proto";
+
+        /**            
+    The current passage announcement data contains all passage announcements that are predicted within the    
+        */
+
+    /** structTag=0xc525 */
+    message StopPassageDataTdi {
+
+        /**            
+        * The scheduled time the vehicle arrives at or departs from the stop point.    
+        */
+        //TYPE-DESC: AbsoluteTime uint64
+        //TYPE-CONST: INVALID 4000000003
+        //TYPE-CONST: OVERFLOW 4000000000
+        optional uint64 scheduled_passage_time_utc = 0x0020;
+
+        /**            
+        * The predicted (if it is in the future) or observed (if it is in the past) time of arrival or departure.    
+        */
+        //TYPE-DESC: AbsoluteTime uint64
+        //TYPE-CONST: INVALID 4000000003
+        //TYPE-CONST: OVERFLOW 4000000000
+        optional uint64 actual_passage_time_utc = 0x0021;
+
+        /**            
+        * The drop-off (arrival) or pick-up (departure) mode of the vehicle at this stop point.    
+        */
+        //TYPE-DESC: StopServiceMode uint32
+        //TYPE-CONST: MANDATORY 1
+        //TYPE-CONST: REQUEST 2
+        //TYPE-CONST: PRE_ORDER 3
+        //TYPE-CONST: DRIVE_THROUGH 4
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 254
+        optional uint32 service_mode = 0x0022;
+
+        /**            
+        * The direction text of the vehicle,  as effective when passing at this stop point.
+        * This direction text may not be the same as the current headsign of the vehicle.
+        * For arrival info, this is the origin, for departure info, this is the destination.    
+        */
+        //TYPE-DESC: UtfString string
+        required mhcc.app.protobuf.commons.MultilingualString multilingual_direction_text = 0x0023;
+
+        /**            
+        * The via texts of the vehicle, as effective when passing at this stop point.
+        * For arrival info, theseare the vias indicating where the vehicle is coming from,
+        * for departure info, these are the vias indicating where the vehicle is going to.    
+        */
+        //TYPE-DESC: UtfString string
+        repeated string via_texts = 0x0024;
+
+        /**            
+        * The special text associated with the trip when arriving or departing at this stop point.
+        * Examples: "this trip is not served" / "bus instead of tram today"    
+        */
+        //TYPE-DESC: UtfString string
+        optional mhcc.app.protobuf.commons.MultilingualString multilingual_special_text = 0x0025;
+
+        /**            
+        * The "type" of stop passage data (reflects dispatcher actions).
+        * Note: The type and the attribute might in the future be renamed to better express
+        * what it means, but the semantics will stay the same.    
+        */
+        //TYPE-DESC: StopPassageType uint32
+        //TYPE-CONST: PLANNED 0
+        //TYPE-CONST: REAL 1
+        //TYPE-CONST: CLEARED 2
+        //TYPE-CONST: REPLACEMENT_INFO 3
+        //TYPE-CONST: INVALID 253
+        optional uint32 type = 0x0026;
+    
+    
+    }
+  

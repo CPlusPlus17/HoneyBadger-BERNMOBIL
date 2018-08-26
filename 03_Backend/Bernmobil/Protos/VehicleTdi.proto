@@ -1,0 +1,198 @@
+    /**
+     * (C) 2008-2012, Trapeze Switzerland GmbH. All rights reserved.
+     *
+     * Original model object: mhcc.app.dataprovider.model.tdiinterface.dstructs.vehicle_tdi
+     *
+     * Automatically generated. DO NOT CHANGE THIS FILE MANUALLY!
+     *
+     */
+
+    syntax = "proto2";
+    package mhcc.app.dataprovider.model.tdiinterface.dstructs;
+    option java_outer_classname = "VehicleTdiDTO";
+
+    import "ReferenceSupport.proto";
+
+        /**            
+    This struct represents a vehicle, together with its current location.
+It is delivered a result of a "geo bounds" query.    
+        */
+
+    /** structTag=0xc526 */
+    message VehicleTdi {
+
+        /**            
+        * Identifier guaranteed to be unique within a single deployment, i.e. not a
+        * globally unique identifier (GUID).    
+        */
+        //TYPE-DESC: Duid sint64
+        //TYPE-CONST: MIN -9223372036854775807
+        //TYPE-CONST: MAX 9223372036854775807
+        required sint64 duid = 0x0001;
+
+        /**            
+        * Time stamp for the (last) time the object was created or updated.    
+        */
+        //TYPE-DESC: AbsoluteTimeMillis sint64
+        required sint64 last_modification_timestamp = 0x0002;
+
+        /**            
+        * Determines whether this object is marked as 'deleted' in a logical sense.    
+        */
+        required bool is_deleted = 0x0003;
+
+        /**            
+        * The vehicle's category (useful for selecting an icon to display).    
+        */
+        //TYPE-DESC: VehicleCategory uint32
+        //TYPE-CONST: TRAM 1
+        //TYPE-CONST: SUBWAY 2
+        //TYPE-CONST: RAIL 3
+        //TYPE-CONST: LIGHTRAIL 4
+        //TYPE-CONST: BUS 5
+        //TYPE-CONST: TROLLEYBUS 6
+        //TYPE-CONST: RAPIDBUS 7
+        //TYPE-CONST: FERRY 8
+        //TYPE-CONST: CABLE 9
+        //TYPE-CONST: GONDOLA 10
+        //TYPE-CONST: FUNICULAR 11
+        //TYPE-CONST: HELICOPTER 12
+        //TYPE-CONST: AIRPLANE 13
+        //TYPE-CONST: COMMUTER 14
+        //TYPE-CONST: ALL 252
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 254
+        //TYPE-CONST: UNDEFINED 255
+        optional uint32 category = 0x0020;
+
+        /**            
+        * The vehicle's current trip (useful for looking up the current data in a 2nd request)    
+        */
+        //TYPE: TripTdi
+        optional mhcc.app.protobuf.commons.Reference trip_duid = 0x0021;
+
+        /**            
+        * The status of the geo location.    
+        */
+        //TYPE-DESC: GeoPositionStatus uint32
+        //TYPE-CONST: DERIVED 1
+        //TYPE-CONST: NOT_POSITIONED 2
+        //TYPE-CONST: HIGH 3
+        //TYPE-CONST: MEDIUM 4
+        //TYPE-CONST: LOW 5
+        //TYPE-CONST: INVALID 253
+        required uint32 geo_position_status = 0x0022;
+
+        /**            
+        * The precise time stamp at which this location is/was valid.    
+        */
+        //TYPE-DESC: AbsoluteTime uint64
+        //TYPE-CONST: INVALID 4000000003
+        //TYPE-CONST: OVERFLOW 4000000000
+        required uint64 reference_time = 0x0023;
+
+        /**            
+        * The geographical latitude of the location. Normally, this is as reported by the vehicle.
+        * In very rare cases, this may be set to NULL.    
+        */
+        //TYPE-DESC: AbsoluteLatitude sint32
+        //TYPE-CONST: INVALID 324000002
+        //TYPE-CONST: NOTHING 324000003
+        //TYPE-CONST: UNDEFINED 324000004
+        //TYPE-CONST: UNDERFLOW -324000001
+        //TYPE-CONST: OVERFLOW 324000001
+        //TYPE-CONST: MIN -324000000
+        //TYPE-CONST: MAX 324000000
+        optional sint32 latitude = 0x0024;
+
+        /**            
+        * The geographical longitude of the location. Normally, this is as reported by the vehicle.
+        * In very rare cases, this may be set to NULL.    
+        */
+        //TYPE-DESC: AbsoluteLongitude sint32
+        //TYPE-CONST: INVALID 648000002
+        //TYPE-CONST: NOTHING 648000003
+        //TYPE-CONST: UNDEFINED 648000004
+        //TYPE-CONST: UNDERFLOW -648000001
+        //TYPE-CONST: OVERFLOW 648000001
+        //TYPE-CONST: MIN -648000000
+        //TYPE-CONST: MAX 648000000
+        optional sint32 longitude = 0x0025;
+
+        /**            
+        * The compass bearing of the location.
+        * In very rare cases, this may be set to NULL.    
+        */
+        //TYPE-DESC: CompassBearing uint32
+        //TYPE-CONST: INVALID 65533
+        //TYPE-CONST: NOTHING 65534
+        //TYPE-CONST: UNDEFINED 65535
+        //TYPE-CONST: NORTH 0
+        //TYPE-CONST: EAST 90
+        //TYPE-CONST: SOUTH 180
+        //TYPE-CONST: WEST 270
+        //TYPE-CONST: DEFAULT 0
+        //TYPE-CONST: MIN 0
+        //TYPE-CONST: MAX 359
+        optional uint32 bearing = 0x0026;
+
+        /**            
+        * Indication for wheelchair lift (or other "accessibility" feature)    
+        */
+        //TYPE-DESC: YesNo uint32
+        //TYPE-CONST: NO 0
+        //TYPE-CONST: YES 1
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 254
+        //TYPE-CONST: UNDEFINED 255
+        optional uint32 is_accessible = 0x0027;
+
+        /**            
+        * The vehicle's current pattern    
+        */
+        //TYPE: PatternTdi
+        optional mhcc.app.protobuf.commons.Reference pattern_duid = 0x0028;
+
+        /**            
+        * Indication for bike rack    
+        */
+        //TYPE-DESC: YesNo uint32
+        //TYPE-CONST: NO 0
+        //TYPE-CONST: YES 1
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 254
+        //TYPE-CONST: UNDEFINED 255
+        optional uint32 has_bike_rack = 0x0029;
+
+        /**            
+        * The technical vehicle number of the vehicle.    
+        */
+        //TYPE-DESC: TechnicalNumber uint32
+        //TYPE-CONST: INVALID 65533
+        //TYPE-CONST: NOTHING 0
+        //TYPE-CONST: UNDEFINED 65535
+        //TYPE-CONST: VEHICLE_GROUP_0 8191
+        //TYPE-CONST: LOCKED_0 8192
+        //TYPE-CONST: VEHICLE_GROUP_1 16383
+        //TYPE-CONST: LOCKED_1 16834
+        //TYPE-CONST: VEHICLE_GROUP_2 24575
+        //TYPE-CONST: LOCKED_2 24576
+        //TYPE-CONST: VEHICLE_GROUP_3 32767
+        //TYPE-CONST: MIN 1
+        //TYPE-CONST: MAX 32767
+        optional uint32 vehicle_number = 0x002a;
+
+        /**            
+        * operational number of vehicle    
+        */
+        //TYPE-DESC: OperationalNumber uint32
+        //TYPE-CONST: INVALID 65533
+        //TYPE-CONST: NOTHING 0
+        //TYPE-CONST: UNDEFINED 65535
+        //TYPE-CONST: MIN 1
+        //TYPE-CONST: MAX 65532
+        optional uint32 operational_number = 0x0060;
+    
+    
+    }
+  

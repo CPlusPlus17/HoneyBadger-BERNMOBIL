@@ -1,0 +1,36 @@
+    /**
+     * (C) 2008-2012, Trapeze Switzerland GmbH. All rights reserved.
+     *
+     * Original model object: mhcc.app.dataprovider.model.tdiinterface.dstructs.active_display_unit_response_tdi
+     *
+     * Automatically generated. DO NOT CHANGE THIS FILE MANUALLY!
+     *
+     */
+
+    syntax = "proto2";
+    package mhcc.app.dataprovider.model.tdiinterface.dstructs;
+    option java_outer_classname = "ActiveDisplayUnitResponseTdiDTO";
+
+    import "PassengerAlertTdi.proto";
+    import "StopPassageTdi.proto";
+
+        /**            
+    The response contains the information elements that are relevant for the displays that were referenced in the request.    
+        */
+
+    /** structTag=0xc52e */
+    message ActiveDisplayUnitResponseTdi {
+
+        /**            
+        * the stop passages that are relevant for the displays that were part of the request    
+        */
+        repeated mhcc.app.dataprovider.model.tdiinterface.dstructs.StopPassageTdi passages = 0x0020;
+
+        /**            
+        * the passenger alerts that are relevant for the displays that were part of the request    
+        */
+        repeated mhcc.app.dataprovider.model.tdiinterface.dstructs.PassengerAlertTdi alerts = 0x0021;
+    
+    
+    }
+  

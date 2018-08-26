@@ -1,0 +1,19 @@
+    /**
+     * (C) 2008-2012, Trapeze Switzerland GmbH. All rights reserved.
+     *
+     * Original model object: mhcc.app.dataprovider.model.tdiinterface.dstructs.active_display_unit_request_tdi
+     *
+     * Automatically generated. DO NOT CHANGE THIS FILE MANUALLY!
+     *
+     */
+
+    syntax = "proto2";
+    package mhcc.app.dataprovider.model.tdiinterface.dstructs;
+    option java_outer_classname = "ActiveDisplayUnitRequestTdiArrayDTO";
+
+    import "ActiveDisplayUnitRequestTdi.proto";
+
+    message ActiveDisplayUnitRequestTdiArray {
+        repeated ActiveDisplayUnitRequestTdi activeDisplayUnitRequestTdiArray = 1;
+    }
+  

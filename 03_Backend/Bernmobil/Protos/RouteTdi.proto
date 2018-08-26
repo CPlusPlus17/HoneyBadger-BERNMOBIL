@@ -1,0 +1,99 @@
+    /**
+     * (C) 2008-2012, Trapeze Switzerland GmbH. All rights reserved.
+     *
+     * Original model object: mhcc.app.dataprovider.model.tdiinterface.dstructs.route_tdi
+     *
+     * Automatically generated. DO NOT CHANGE THIS FILE MANUALLY!
+     *
+     */
+
+    syntax = "proto2";
+    package mhcc.app.dataprovider.model.tdiinterface.dstructs;
+    option java_outer_classname = "RouteTdiDTO";
+
+    import "RouteDirectionAttributesTdi.proto";
+
+        /**            
+    A route is a virtual entity that is known to the passenger.
+On a given route, more than one service operator may be contracted to operate vehicles.    
+        */
+
+    /** structTag=0xc522 */
+    message RouteTdi {
+
+        /**            
+        * Identifier guaranteed to be unique within a single deployment, i.e. not a
+        * globally unique identifier (GUID).    
+        */
+        //TYPE-DESC: Duid sint64
+        //TYPE-CONST: MIN -9223372036854775807
+        //TYPE-CONST: MAX 9223372036854775807
+        required sint64 duid = 0x0001;
+
+        /**            
+        * Time stamp for the (last) time the object was created or updated.    
+        */
+        //TYPE-DESC: AbsoluteTimeMillis sint64
+        required sint64 last_modification_timestamp = 0x0002;
+
+        /**            
+        * Determines whether this object is marked as 'deleted' in a logical sense.    
+        */
+        required bool is_deleted = 0x0003;
+
+        /**            
+        * The route's short name.    
+        */
+        //TYPE-DESC: UtfString string
+        required string short_name = 0x0021;
+
+        /**            
+        * The route's direction-specific extensions.    
+        */
+        repeated mhcc.app.dataprovider.model.tdiinterface.dstructs.RouteDirectionAttributesTdi direction_extensions = 0x0022;
+
+        /**            
+        * The route's unique identifier.    
+        */
+        //TYPE-DESC: TechnicalNumber uint32
+        //TYPE-CONST: INVALID 65533
+        //TYPE-CONST: NOTHING 0
+        //TYPE-CONST: UNDEFINED 65535
+        //TYPE-CONST: VEHICLE_GROUP_0 8191
+        //TYPE-CONST: LOCKED_0 8192
+        //TYPE-CONST: VEHICLE_GROUP_1 16383
+        //TYPE-CONST: LOCKED_1 16834
+        //TYPE-CONST: VEHICLE_GROUP_2 24575
+        //TYPE-CONST: LOCKED_2 24576
+        //TYPE-CONST: VEHICLE_GROUP_3 32767
+        //TYPE-CONST: MIN 1
+        //TYPE-CONST: MAX 32767
+        required uint32 number = 0x0023;
+
+        /**            
+        * The route's default vehicle category (as per the route type).    
+        */
+        //TYPE-DESC: VehicleCategory uint32
+        //TYPE-CONST: TRAM 1
+        //TYPE-CONST: SUBWAY 2
+        //TYPE-CONST: RAIL 3
+        //TYPE-CONST: LIGHTRAIL 4
+        //TYPE-CONST: BUS 5
+        //TYPE-CONST: TROLLEYBUS 6
+        //TYPE-CONST: RAPIDBUS 7
+        //TYPE-CONST: FERRY 8
+        //TYPE-CONST: CABLE 9
+        //TYPE-CONST: GONDOLA 10
+        //TYPE-CONST: FUNICULAR 11
+        //TYPE-CONST: HELICOPTER 12
+        //TYPE-CONST: AIRPLANE 13
+        //TYPE-CONST: COMMUTER 14
+        //TYPE-CONST: ALL 252
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 254
+        //TYPE-CONST: UNDEFINED 255
+        optional uint32 category = 0x0024;
+    
+    
+    }
+  

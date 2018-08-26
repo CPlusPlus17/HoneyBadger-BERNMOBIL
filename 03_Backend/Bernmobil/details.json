@@ -1,0 +1,3586 @@
+﻿[
+  {
+    "Nummer": 5,
+    "Bezeichnung": "Saurer 4T",
+    "FIELD3": "",
+    "Besonderheiten ": {
+      " Bemerkungen": "Oldtimer-Bus"
+    },
+    "Einsatz": "Sonderfahrten",
+    "Antriebssystem": "Benzin",
+    "Sitzplätze": null,
+    "Stehplätze": null,
+    "Niederflur": "",
+    "Fahrgastinfo innen akkustisch": "",
+    "Fahrgastinfo innen optisch": "",
+    "Fahrgastinfo aussen optisch": ""
+  },
+ {
+   "Nummer": 12,
+   "Bezeichnung": "SLM G 3/3",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Oldtimer-Tram (Dampftram)"
+   },
+   "Einsatz": "Sonderfahrten",
+   "Antriebssystem": "Dampf",
+   "Sitzplätze": null,
+   "Stehplätze": null,
+   "Niederflur": "",
+   "Fahrgastinfo innen akkustisch": "",
+   "Fahrgastinfo innen optisch": "",
+   "Fahrgastinfo aussen optisch": ""
+},
+ {
+   "Nummer": 37,
+   "Bezeichnung": "SWS-MFO Be 2/2",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Oldtimer-Tram"
+   },
+   "Einsatz": "Sonderfahrten",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": null,
+   "Stehplätze": null,
+   "Niederflur": "",
+   "Fahrgastinfo innen akkustisch": "",
+   "Fahrgastinfo innen optisch": "",
+   "Fahrgastinfo aussen optisch": ""
+},
+ {
+   "Nummer": 107,
+   "Bezeichnung": "SWS Be 4/4",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Oldtimer-Tram"
+   },
+   "Einsatz": "Sonderfahrten",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": null,
+   "Stehplätze": null,
+   "Niederflur": "",
+   "Fahrgastinfo innen akkustisch": "",
+   "Fahrgastinfo innen optisch": "",
+   "Fahrgastinfo aussen optisch": ""
+},
+ {
+   "Nummer": 145,
+   "Bezeichnung": "SIG-MFO, Be 4/4",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Oldtimer-Tram (Märlitram)"
+   },
+   "Einsatz": "Sonderfahrten",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": null,
+   "Stehplätze": null,
+   "Niederflur": "",
+   "Fahrgastinfo innen akkustisch": "",
+   "Fahrgastinfo innen optisch": "",
+   "Fahrgastinfo aussen optisch": ""
+},
+ {
+   "Nummer": 171,
+   "Bezeichnung": "SIG-MFO, Be 4/4",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Oldtimer-Tram (Lufter)"
+   },
+   "Einsatz": "Sonderfahrten",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": null,
+   "Stehplätze": null,
+   "Niederflur": "",
+   "Fahrgastinfo innen akkustisch": "",
+   "Fahrgastinfo innen optisch": "",
+   "Fahrgastinfo aussen optisch": ""
+},
+ {
+   "Nummer": 501,
+   "Bezeichnung": "SWS-MFO Be 2/2",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Oldtimer-Tram (Schneepflug)"
+   },
+   "Einsatz": "Sonderfahrten",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": null,
+   "Stehplätze": null,
+   "Niederflur": "",
+   "Fahrgastinfo innen akkustisch": "",
+   "Fahrgastinfo innen optisch": "",
+   "Fahrgastinfo aussen optisch": ""
+},
+ {
+   "Nummer": 621,
+   "Bezeichnung": "SWS, Be 4/4",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Oldtimer-Tram"
+   },
+   "Einsatz": "Sonderfahrten",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": null,
+   "Stehplätze": null,
+   "Niederflur": "",
+   "Fahrgastinfo innen akkustisch": "",
+   "Fahrgastinfo innen optisch": "",
+   "Fahrgastinfo aussen optisch": ""
+},
+ {
+   "Nummer": 647,
+   "Bezeichnung": "SIG-MFO, Be 4/4",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Oldtimer-Tram (Speisewagen)"
+   },
+   "Einsatz": "Sonderfahrten",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": null,
+   "Stehplätze": null,
+   "Niederflur": "",
+   "Fahrgastinfo innen akkustisch": "",
+   "Fahrgastinfo innen optisch": "",
+   "Fahrgastinfo aussen optisch": ""
+},
+ {
+   "Nummer": 31,
+   "Bezeichnung": "Gangloff/LWB/TVB, C 4",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Oldtimer-Tramanhänger (Dampftram)"
+   },
+   "Einsatz": "Sonderfahrten",
+   "Antriebssystem": "",
+   "Sitzplätze": null,
+   "Stehplätze": null,
+   "Niederflur": "",
+   "Fahrgastinfo innen akkustisch": "",
+   "Fahrgastinfo innen optisch": "",
+   "Fahrgastinfo aussen optisch": ""
+},
+ {
+   "Nummer": 45,
+   "Bezeichnung": "Wagonfabrik Schlieren, Be 2/2",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Oldtimer-Tramanhänger (Dampftram)"
+   },
+   "Einsatz": "Sonderfahrten",
+   "Antriebssystem": "",
+   "Sitzplätze": null,
+   "Stehplätze": null,
+   "Niederflur": "",
+   "Fahrgastinfo innen akkustisch": "",
+   "Fahrgastinfo innen optisch": "",
+   "Fahrgastinfo aussen optisch": ""
+},
+ {
+   "Nummer": 204,
+   "Bezeichnung": "SIG, B 4",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Oldtimer-Tramanhänger"
+   },
+   "Einsatz": "Sonderfahrten",
+   "Antriebssystem": "",
+   "Sitzplätze": null,
+   "Stehplätze": null,
+   "Niederflur": "",
+   "Fahrgastinfo innen akkustisch": "",
+   "Fahrgastinfo innen optisch": "",
+   "Fahrgastinfo aussen optisch": ""
+},
+ {
+   "Nummer": 239,
+   "Bezeichnung": "SIG, B 4",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Oldtimer-Tramanhänger"
+   },
+   "Einsatz": "Sonderfahrten",
+   "Antriebssystem": "",
+   "Sitzplätze": null,
+   "Stehplätze": null,
+   "Niederflur": "",
+   "Fahrgastinfo innen akkustisch": "",
+   "Fahrgastinfo innen optisch": "",
+   "Fahrgastinfo aussen optisch": ""
+},
+ {
+   "Nummer": 311,
+   "Bezeichnung": "SIG, B 4",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Oldtimer-Tramanhänger (Speisewagen)"
+   },
+   "Einsatz": "Sonderfahrten",
+   "Antriebssystem": "",
+   "Sitzplätze": null,
+   "Stehplätze": null,
+   "Niederflur": "",
+   "Fahrgastinfo innen akkustisch": "",
+   "Fahrgastinfo innen optisch": "",
+   "Fahrgastinfo aussen optisch": ""
+},
+ {
+   "Nummer": 312,
+   "Bezeichnung": "SIG, B 4",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Oldtimer-Tramanhänger (Speisewagen)"
+   },
+   "Einsatz": "Sonderfahrten",
+   "Antriebssystem": "",
+   "Sitzplätze": null,
+   "Stehplätze": null,
+   "Niederflur": "",
+   "Fahrgastinfo innen akkustisch": "",
+   "Fahrgastinfo innen optisch": "",
+   "Fahrgastinfo aussen optisch": ""
+},
+ {
+   "Nummer": 317,
+   "Bezeichnung": "SIG, B 4",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Oldtimer-Tramanhänger"
+   },
+   "Einsatz": "Sonderfahrten",
+   "Antriebssystem": "",
+   "Sitzplätze": null,
+   "Stehplätze": null,
+   "Niederflur": "",
+   "Fahrgastinfo innen akkustisch": "",
+   "Fahrgastinfo innen optisch": "",
+   "Fahrgastinfo aussen optisch": ""
+},
+ {
+   "Nummer": 327,
+   "Bezeichnung": "FFA, B 4",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Oldtimer-Tramanhänger"
+   },
+   "Einsatz": "Sonderfahrten",
+   "Antriebssystem": "",
+   "Sitzplätze": null,
+   "Stehplätze": null,
+   "Niederflur": "",
+   "Fahrgastinfo innen akkustisch": "",
+   "Fahrgastinfo innen optisch": "",
+   "Fahrgastinfo aussen optisch": ""
+},
+ {
+   "Nummer": 337,
+   "Bezeichnung": "SIG, B 4",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Oldtimer-Tramanhänger"
+   },
+   "Einsatz": "Sonderfahrten",
+   "Antriebssystem": "",
+   "Sitzplätze": null,
+   "Stehplätze": null,
+   "Niederflur": "",
+   "Fahrgastinfo innen akkustisch": "",
+   "Fahrgastinfo innen optisch": "",
+   "Fahrgastinfo aussen optisch": ""
+},
+ {
+   "Nummer": 731,
+   "Bezeichnung": "Vevey / ABB, Be 4/8, 731",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 3, 7",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 62,
+   "Stehplätze": 179,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 732,
+   "Bezeichnung": "Vevey / ABB, Be 4/8, 732",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 3, 7",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 62,
+   "Stehplätze": 179,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 733,
+   "Bezeichnung": "Vevey / ABB, Be 4/8, 733",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 3, 7",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 62,
+   "Stehplätze": 179,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 734,
+   "Bezeichnung": "Vevey / ABB, Be 4/8, 734",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 3, 7",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 62,
+   "Stehplätze": 179,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 735,
+   "Bezeichnung": "Vevey / ABB, Be 4/8, 735",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Werbung Museum für Kommunikation"
+   },
+   "Einsatz": "Linie 3, 7",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 62,
+   "Stehplätze": 179,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 736,
+   "Bezeichnung": "Vevey / ABB, Be 4/8, 736",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Werbung 1968er Tram (historisches Museum)"
+   },
+   "Einsatz": "Linie 3, 7",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 62,
+   "Stehplätze": 179,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 737,
+   "Bezeichnung": "Vevey / ABB, Be 4/8, 737",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 3, 7",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 62,
+   "Stehplätze": 179,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 738,
+   "Bezeichnung": "Vevey / ABB, Be 4/8, 738",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 3, 7",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 62,
+   "Stehplätze": 179,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 739,
+   "Bezeichnung": "Vevey / ABB, Be 4/8, 739",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 3, 7",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 62,
+   "Stehplätze": 179,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 740,
+   "Bezeichnung": "Vevey / ABB, Be 4/8, 740",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 3, 7",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 62,
+   "Stehplätze": 179,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 741,
+   "Bezeichnung": "Vevey / ABB, Be 4/8, 741",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 3, 7",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 62,
+   "Stehplätze": 179,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 742,
+   "Bezeichnung": "Vevey / ABB, Be 4/8, 742",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 3, 7",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 62,
+   "Stehplätze": 179,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 753,
+   "Bezeichnung": "Siemens Combino, Be 4/6, 753",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 7",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 59,
+   "Stehplätze": 116,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 754,
+   "Bezeichnung": "Siemens Combino, Be 4/6, 754",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 7",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 59,
+   "Stehplätze": 116,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 755,
+   "Bezeichnung": "Siemens Combino, Be 4/6, 755",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 7",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 59,
+   "Stehplätze": 116,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 756,
+   "Bezeichnung": "Siemens Combino, Be 4/6, 756",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 7",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 59,
+   "Stehplätze": 116,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 757,
+   "Bezeichnung": "Siemens Combino, Be 4/6, 757",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 7",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 59,
+   "Stehplätze": 116,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 758,
+   "Bezeichnung": "Siemens Combino, Be 4/6, 758",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 7",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 59,
+   "Stehplätze": 116,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 759,
+   "Bezeichnung": "Siemens Combino, Be 4/6, 759",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 7",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 59,
+   "Stehplätze": 116,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 751,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 751",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 6, 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 80,
+   "Stehplätze": 151,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 752,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 752",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 6, 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 80,
+   "Stehplätze": 151,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 760,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 760",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 6, 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 80,
+   "Stehplätze": 151,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 761,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 761",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 6, 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 80,
+   "Stehplätze": 151,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 762,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 762",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 6, 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 80,
+   "Stehplätze": 151,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 763,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 763",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 6, 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 80,
+   "Stehplätze": 151,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 764,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 764",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 6, 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 80,
+   "Stehplätze": 151,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 765,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 765",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 6, 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 80,
+   "Stehplätze": 151,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 651,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 651",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Werbung Valiant Bank"
+   },
+   "Einsatz": "Linie 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 78,
+   "Stehplätze": 149,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 652,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 652",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 78,
+   "Stehplätze": 149,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 653,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 653",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 78,
+   "Stehplätze": 149,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 654,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 654",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 78,
+   "Stehplätze": 149,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 655,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 655",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "YB Meister Tram"
+   },
+   "Einsatz": "Linie 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 78,
+   "Stehplätze": 149,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 656,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 656",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 78,
+   "Stehplätze": 149,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 657,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 657",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 78,
+   "Stehplätze": 149,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 658,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 658",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 78,
+   "Stehplätze": 149,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 659,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 659",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 78,
+   "Stehplätze": 149,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 660,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 660",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 78,
+   "Stehplätze": 149,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 661,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 661",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 78,
+   "Stehplätze": 149,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 662,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 662",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 78,
+   "Stehplätze": 149,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 663,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 663",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 78,
+   "Stehplätze": 149,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 664,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 664",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 78,
+   "Stehplätze": 149,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 665,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 665",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 78,
+   "Stehplätze": 149,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 666,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 666",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 78,
+   "Stehplätze": 149,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 667,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 667",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 78,
+   "Stehplätze": 149,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 668,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 668",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 78,
+   "Stehplätze": 149,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 669,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 669",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 78,
+   "Stehplätze": 149,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 670,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 670",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 78,
+   "Stehplätze": 149,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 671,
+   "Bezeichnung": "Siemens Combino, Be 6/8, 671",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "YB Meister Tram"
+   },
+   "Einsatz": "Linie 8, 9",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 78,
+   "Stehplätze": 149,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 1,
+   "Bezeichnung": "Trolleybus, NAW BGT-N, 01",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 11, 12, 20",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 43,
+   "Stehplätze": 120,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 2,
+   "Bezeichnung": "Trolleybus, NAW BGT-N, 02",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 11, 12, 20",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 43,
+   "Stehplätze": 120,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 3,
+   "Bezeichnung": "Trolleybus, NAW BGT-N, 03",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 11, 12, 20",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 43,
+   "Stehplätze": 120,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 4,
+   "Bezeichnung": "Trolleybus, NAW BGT-N, 04",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 11, 12, 20",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 43,
+   "Stehplätze": 120,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 5,
+   "Bezeichnung": "Trolleybus, NAW BGT-N, 05",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 11, 12, 20",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 43,
+   "Stehplätze": 120,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 6,
+   "Bezeichnung": "Trolleybus, NAW BGT-N, 06",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 11, 12, 20",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 43,
+   "Stehplätze": 120,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 7,
+   "Bezeichnung": "Trolleybus, NAW BGT-N, 07",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 11, 12, 20",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 43,
+   "Stehplätze": 120,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 8,
+   "Bezeichnung": "Trolleybus, NAW BGT-N, 08",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 11, 12, 20",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 43,
+   "Stehplätze": 120,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 9,
+   "Bezeichnung": "Trolleybus, NAW BGT-N, 09",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 11, 12, 20",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 43,
+   "Stehplätze": 120,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 10,
+   "Bezeichnung": "Trolleybus, NAW BGT-N, 10",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 11, 12, 20",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 43,
+   "Stehplätze": 120,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 11,
+   "Bezeichnung": "Trolleybus, NAW BGT-N, 11",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 11, 12, 20",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 43,
+   "Stehplätze": 120,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 12,
+   "Bezeichnung": "Trolleybus, NAW BGT-N, 12",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 11, 12, 20",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 43,
+   "Stehplätze": 120,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 13,
+   "Bezeichnung": "Trolleybus, NAW BGT-N, 13",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 11, 12, 20",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 43,
+   "Stehplätze": 120,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 14,
+   "Bezeichnung": "Trolleybus, NAW BGT-N, 14",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 11, 12, 20",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 43,
+   "Stehplätze": 120,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 15,
+   "Bezeichnung": "Trolleybus, NAW BGT-N, 15",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 11, 12, 20",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 43,
+   "Stehplätze": 120,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 16,
+   "Bezeichnung": "Trolleybus, NAW BGT-N, 16",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Werbung LGT Group Foundation"
+   },
+   "Einsatz": "Linie 11, 12, 20",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 43,
+   "Stehplätze": 120,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 17,
+   "Bezeichnung": "Trolleybus, NAW BGT-N, 17",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 11, 12, 20",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 43,
+   "Stehplätze": 120,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 18,
+   "Bezeichnung": "Trolleybus, NAW BGT-N, 18",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Werbung Welle 7"
+   },
+   "Einsatz": "Linie 11, 12, 20",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 43,
+   "Stehplätze": 120,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 19,
+   "Bezeichnung": "Trolleybus, NAW BGT-N, 19",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 11, 12, 20",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 43,
+   "Stehplätze": 120,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 20,
+   "Bezeichnung": "Trolleybus, NAW BGT-N, 20",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 11, 12, 20",
+   "Antriebssystem": "600 Volt",
+   "Sitzplätze": 43,
+   "Stehplätze": 120,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 121,
+   "Bezeichnung": "SB, Volvo 7700 4x2 CNG, 121",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 19, 21, 28",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 31,
+   "Stehplätze": 49,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 122,
+   "Bezeichnung": "SB, Volvo 7700 4x2 CNG, 122",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 19, 21, 28",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 31,
+   "Stehplätze": 49,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 123,
+   "Bezeichnung": "SB, Volvo 7700 4x2 CNG, 123",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 19, 21, 28",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 31,
+   "Stehplätze": 49,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 124,
+   "Bezeichnung": "SB, Volvo 7700 4x2 CNG, 124",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": "Werbung Moonliner"
+   },
+   "Einsatz": "Linie 19, 21, 28",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 31,
+   "Stehplätze": 49,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 125,
+   "Bezeichnung": "SB, Volvo 7700 4x2 CNG, 125",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 19, 21, 28",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 31,
+   "Stehplätze": 49,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 126,
+   "Bezeichnung": "SB, Volvo 7700 4x2 CNG, 126",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 19, 21, 28",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 31,
+   "Stehplätze": 49,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 127,
+   "Bezeichnung": "SB, Volvo 7700 4x2 CNG, 127",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 19, 21, 28",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 31,
+   "Stehplätze": 49,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 128,
+   "Bezeichnung": "SB, Volvo 7700 4x2 CNG, 128",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 19, 21, 28",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 31,
+   "Stehplätze": 49,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 129,
+   "Bezeichnung": "SB, Volvo 7700 4x2 CNG, 129",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 19, 21, 28",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 31,
+   "Stehplätze": 49,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 130,
+   "Bezeichnung": "SB, Volvo 7700 4x2 CNG, 130",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 19, 21, 28",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 31,
+   "Stehplätze": 49,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 131,
+   "Bezeichnung": "SB, Volvo 7700 4x2 CNG, 131",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 19, 21, 28",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 31,
+   "Stehplätze": 49,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 132,
+   "Bezeichnung": "SB, Volvo 7700 4x2 CNG, 132",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 19, 21, 28",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 31,
+   "Stehplätze": 49,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 133,
+   "Bezeichnung": "SB, Volvo 7700 4x2 CNG, 133",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 19, 21, 28",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 31,
+   "Stehplätze": 49,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 141,
+   "Bezeichnung": "SB, Volvo 7700 4x2 CNG, 141",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 19, 21, 28",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 32,
+   "Stehplätze": 44,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 142,
+   "Bezeichnung": "SB, Volvo 7700 4x2 CNG, 142",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 19, 21, 28",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 32,
+   "Stehplätze": 44,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 143,
+   "Bezeichnung": "SB, Volvo 7700 4x2 CNG, 143",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 19, 21, 28",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 32,
+   "Stehplätze": 44,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 151,
+   "Bezeichnung": "SB, MAN NL 293, 151",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 31, 32",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 31,
+   "Stehplätze": 61,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 152,
+   "Bezeichnung": "SB, MAN NL 293, 152",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 31, 32",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 31,
+   "Stehplätze": 61,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 153,
+   "Bezeichnung": "SB, MAN NL 293, 153",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 31, 32",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 31,
+   "Stehplätze": 61,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 154,
+   "Bezeichnung": "SB, MAN NL 293, 154",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 31, 32",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 31,
+   "Stehplätze": 61,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 455,
+   "Bezeichnung": "Midibus, MAN 11.220 HOCL, 455",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 16",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 20,
+   "Stehplätze": 38,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 456,
+   "Bezeichnung": "Midibus, MAN 11.220 HOCL, 456",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 16",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 20,
+   "Stehplätze": 38,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 459,
+   "Bezeichnung": "Midibus, MAN 11.220 HOCL, 459",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 331",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 20,
+   "Stehplätze": 38,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 411,
+   "Bezeichnung": "Midibus, MAN NL 293, 411",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 27, 29",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 20,
+   "Stehplätze": 66,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 412,
+   "Bezeichnung": "Midibus, MAN NL 293, 412",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 27, 29",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 20,
+   "Stehplätze": 66,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 413,
+   "Bezeichnung": "Midibus, MAN NL 293, 413",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 27, 29",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 20,
+   "Stehplätze": 66,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 414,
+   "Bezeichnung": "Midibus, MAN NL 293, 414",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 27, 29",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 20,
+   "Stehplätze": 66,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 415,
+   "Bezeichnung": "Midibus, MAN NL 293, 415",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 27, 29",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 20,
+   "Stehplätze": 66,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 416,
+   "Bezeichnung": "Midibus, MAN NL 293, 416",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 27, 29",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 20,
+   "Stehplätze": 66,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 417,
+   "Bezeichnung": "Midibus, MAN NL 293, 417",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 27, 29",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 20,
+   "Stehplätze": 66,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 418,
+   "Bezeichnung": "Midibus, MAN NL 293, 418",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 27, 29",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 20,
+   "Stehplätze": 66,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 419,
+   "Bezeichnung": "Midibus, MAN NL 293, 419",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 27, 29",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 20,
+   "Stehplätze": 66,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 420,
+   "Bezeichnung": "Midibus, MAN NL 293, 420",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 27, 29",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 20,
+   "Stehplätze": 66,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 421,
+   "Bezeichnung": "Midibus, MAN NL 293, 421",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 27, 29",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 20,
+   "Stehplätze": 66,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 241,
+   "Bezeichnung": "GAb, Van-Hool AG 300, 241",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Reserve-Pool",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 39,
+   "Stehplätze": 115,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 242,
+   "Bezeichnung": "GAb, Van-Hool AG 300, 242",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Reserve-Pool",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 39,
+   "Stehplätze": 115,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 243,
+   "Bezeichnung": "GAb, Van-Hool AG 300, 243",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Reserve-Pool",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 39,
+   "Stehplätze": 115,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 244,
+   "Bezeichnung": "GAb, Van-Hool AG 300, 244",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Reserve-Pool",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 39,
+   "Stehplätze": 115,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 245,
+   "Bezeichnung": "GAb, Van-Hool AG 300, 245",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Reserve-Pool",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 39,
+   "Stehplätze": 115,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 246,
+   "Bezeichnung": "GAb, Van-Hool AG 300, 246",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Reserve-Pool",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 39,
+   "Stehplätze": 115,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 247,
+   "Bezeichnung": "GAb, Van-Hool AG 300, 247",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Reserve-Pool",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 39,
+   "Stehplätze": 115,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 248,
+   "Bezeichnung": "GAb, Van-Hool AG 300, 248",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Reserve-Pool",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 39,
+   "Stehplätze": 115,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 249,
+   "Bezeichnung": "GAb, Van-Hool AG 300, 249",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Reserve-Pool",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 39,
+   "Stehplätze": 115,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 801,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 801",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 802,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 802",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 803,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 803",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 804,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 804",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 805,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 805",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 806,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 806",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 807,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 807",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 808,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 808",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 809,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 809",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 810,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 810",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 811,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 811",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 812,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 812",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 813,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 813",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 814,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 814",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 815,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 815",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 816,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 816",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 817,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 817",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 818,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 818",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 819,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 819",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 820,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 820",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 821,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 821",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 822,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 822",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 823,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 823",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 824,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 824",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 825,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 825",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 826,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 826",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 827,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 827",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 828,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 828",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 829,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 829",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 830,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 830",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 831,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 831",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 832,
+   "Bezeichnung": "GAb, Volvo 7700 A CNG, 832",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 43,
+   "Stehplätze": 106,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 841,
+   "Bezeichnung": "GAb, Evobus Citaro G, 841",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 842,
+   "Bezeichnung": "GAb, Evobus Citaro G, 842",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 843,
+   "Bezeichnung": "GAb, Evobus Citaro G, 843",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 844,
+   "Bezeichnung": "GAb, Evobus Citaro G, 844",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 845,
+   "Bezeichnung": "GAb, Evobus Citaro G, 845",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 846,
+   "Bezeichnung": "GAb, Evobus Citaro G, 846",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 847,
+   "Bezeichnung": "GAb, Evobus Citaro G, 847",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 848,
+   "Bezeichnung": "GAb, Evobus Citaro G, 848",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 849,
+   "Bezeichnung": "GAb, Evobus Citaro G, 849",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 850,
+   "Bezeichnung": "GAb, Evobus Citaro G, 850",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 851,
+   "Bezeichnung": "GAb, Evobus Citaro G, 851",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 852,
+   "Bezeichnung": "GAb, Evobus Citaro G, 852",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 853,
+   "Bezeichnung": "GAb, Evobus Citaro G, 853",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 854,
+   "Bezeichnung": "GAb, Evobus Citaro G, 854",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 855,
+   "Bezeichnung": "GAb, Evobus Citaro G, 855",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 856,
+   "Bezeichnung": "GAb, Evobus Citaro G, 856",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 857,
+   "Bezeichnung": "GAb, Evobus Citaro G, 857",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 858,
+   "Bezeichnung": "GAb, Evobus Citaro G, 858",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 859,
+   "Bezeichnung": "GAb, Evobus Citaro G, 859",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 860,
+   "Bezeichnung": "GAb, Evobus Citaro G, 860",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 861,
+   "Bezeichnung": "GAb, Evobus Citaro G, 861",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 862,
+   "Bezeichnung": "GAb, Evobus Citaro G, 862",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 863,
+   "Bezeichnung": "GAb, Evobus Citaro G, 863",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 864,
+   "Bezeichnung": "GAb, Evobus Citaro G, 864",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Gas",
+   "Sitzplätze": 40,
+   "Stehplätze": 104,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 871,
+   "Bezeichnung": "GAb, Volvo 7900, HA, 871",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Diesel/Hybrid",
+   "Sitzplätze": 41,
+   "Stehplätze": 93,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 872,
+   "Bezeichnung": "GAb, Volvo 7900, HA, 872",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Diesel/Hybrid",
+   "Sitzplätze": 41,
+   "Stehplätze": 93,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 873,
+   "Bezeichnung": "GAb, Volvo 7900, HA, 873",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Diesel/Hybrid",
+   "Sitzplätze": 41,
+   "Stehplätze": 93,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 874,
+   "Bezeichnung": "GAb, Volvo 7900, HA, 874",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Diesel/Hybrid",
+   "Sitzplätze": 41,
+   "Stehplätze": 93,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 875,
+   "Bezeichnung": "GAb, Volvo 7900, HA, 875",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Diesel/Hybrid",
+   "Sitzplätze": 41,
+   "Stehplätze": 93,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 876,
+   "Bezeichnung": "GAb, Volvo 7900, HA, 876",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Diesel/Hybrid",
+   "Sitzplätze": 41,
+   "Stehplätze": 93,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 877,
+   "Bezeichnung": "GAb, Volvo 7900, HA, 877",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Diesel/Hybrid",
+   "Sitzplätze": 41,
+   "Stehplätze": 93,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 878,
+   "Bezeichnung": "GAb, Volvo 7900, HA, 878",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Diesel/Hybrid",
+   "Sitzplätze": 41,
+   "Stehplätze": 93,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 879,
+   "Bezeichnung": "GAb, Volvo 7900, HA, 879",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Diesel/Hybrid",
+   "Sitzplätze": 41,
+   "Stehplätze": 93,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 880,
+   "Bezeichnung": "GAb, Volvo 7900, HA, 880",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Diesel/Hybrid",
+   "Sitzplätze": 41,
+   "Stehplätze": 93,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 881,
+   "Bezeichnung": "GAb, Volvo 7900, HA, 881",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Diesel/Hybrid",
+   "Sitzplätze": 41,
+   "Stehplätze": 93,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 882,
+   "Bezeichnung": "GAb, Volvo 7900, HA, 882",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Diesel/Hybrid",
+   "Sitzplätze": 41,
+   "Stehplätze": 93,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 883,
+   "Bezeichnung": "GAb, Volvo 7900, HA, 883",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Diesel/Hybrid",
+   "Sitzplätze": 41,
+   "Stehplätze": 93,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 884,
+   "Bezeichnung": "GAb, Volvo 7900, HA, 884",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Diesel/Hybrid",
+   "Sitzplätze": 41,
+   "Stehplätze": 93,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 885,
+   "Bezeichnung": "GAb, Volvo 7900, HA, 885",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Diesel/Hybrid",
+   "Sitzplätze": 41,
+   "Stehplätze": 93,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 886,
+   "Bezeichnung": "GAb, Volvo 7900, HA, 886",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Diesel/Hybrid",
+   "Sitzplätze": 41,
+   "Stehplätze": 93,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 887,
+   "Bezeichnung": "GAb, Volvo 7900, HA, 887",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Diesel/Hybrid",
+   "Sitzplätze": 41,
+   "Stehplätze": 93,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 888,
+   "Bezeichnung": "GAb, Volvo 7900, HA, 888",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Diesel/Hybrid",
+   "Sitzplätze": 41,
+   "Stehplätze": 93,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 889,
+   "Bezeichnung": "GAb, Volvo 7900, HA, 889",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Diesel/Hybrid",
+   "Sitzplätze": 41,
+   "Stehplätze": 93,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 890,
+   "Bezeichnung": "GAb, Volvo 7900, HA, 890",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Diesel/Hybrid",
+   "Sitzplätze": 41,
+   "Stehplätze": 93,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 891,
+   "Bezeichnung": "GAb, Volvo 7900, HA, 891",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 10,17,19",
+   "Antriebssystem": "Diesel/Hybrid",
+   "Sitzplätze": 41,
+   "Stehplätze": 93,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 161,
+   "Bezeichnung": "SB, Evobus Citaro, 161",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 160, 165, 166",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 29,
+   "Stehplätze": 60,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 162,
+   "Bezeichnung": "SB, Evobus Citaro, 162",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 160, 165, 166",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 29,
+   "Stehplätze": 60,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 163,
+   "Bezeichnung": "SB, Evobus Citaro, 163",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 160, 165, 166",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 29,
+   "Stehplätze": 60,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 431,
+   "Bezeichnung": "Midibus, Evobus Citaro K, 431",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 16, 26, 27, 29, 160, 161, 162, 163,165, 167, 331, 332",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 23,
+   "Stehplätze": 60,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 432,
+   "Bezeichnung": "Midibus, Evobus Citaro K, 432",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 16, 26, 27, 29, 160, 161, 162, 163,165, 167, 331, 332",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 23,
+   "Stehplätze": 60,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 433,
+   "Bezeichnung": "Midibus, Evobus Citaro K, 433",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 16, 26, 27, 29, 160, 161, 162, 163,165, 167, 331, 332",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 23,
+   "Stehplätze": 60,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 434,
+   "Bezeichnung": "Midibus, Evobus Citaro K, 434",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 16, 26, 27, 29, 160, 161, 162, 163,165, 167, 331, 332",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 23,
+   "Stehplätze": 60,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 435,
+   "Bezeichnung": "Midibus, Evobus Citaro K, 435",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 16, 26, 27, 29, 160, 161, 162, 163,165, 167, 331, 332",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 23,
+   "Stehplätze": 60,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 436,
+   "Bezeichnung": "Midibus, Evobus Citaro K, 436",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 16, 26, 27, 29, 160, 161, 162, 163,165, 167, 331, 332",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 23,
+   "Stehplätze": 60,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 437,
+   "Bezeichnung": "Midibus, Evobus Citaro K, 437",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 16, 26, 27, 29, 160, 161, 162, 163,165, 167, 331, 332",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 23,
+   "Stehplätze": 60,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 438,
+   "Bezeichnung": "Midibus, Evobus Citaro K, 438",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 16, 26, 27, 29, 160, 161, 162, 163,165, 167, 331, 332",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 23,
+   "Stehplätze": 60,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 439,
+   "Bezeichnung": "Midibus, Evobus Citaro K, 439",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 16, 26, 27, 29, 160, 161, 162, 163,165, 167, 331, 332",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 23,
+   "Stehplätze": 60,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 440,
+   "Bezeichnung": "Midibus, Evobus Citaro K, 440",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 16, 26, 27, 29, 160, 161, 162, 163,165, 167, 331, 332",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 23,
+   "Stehplätze": 60,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 441,
+   "Bezeichnung": "Midibus, Evobus Citaro K, 441",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 16, 26, 27, 29, 160, 161, 162, 163,165, 167, 331, 332",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 23,
+   "Stehplätze": 60,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 442,
+   "Bezeichnung": "Midibus, Evobus Citaro K, 442",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 16, 26, 27, 29, 160, 161, 162, 163,165, 167, 331, 332",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 23,
+   "Stehplätze": 60,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 443,
+   "Bezeichnung": "Midibus, Evobus Citaro K, 443",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 16, 26, 27, 29, 160, 161, 162, 163,165, 167, 331, 332",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 23,
+   "Stehplätze": 60,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 444,
+   "Bezeichnung": "Midibus, Evobus Citaro K, 444",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 16, 26, 27, 29, 160, 161, 162, 163,165, 167, 331, 332",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 23,
+   "Stehplätze": 60,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+},
+ {
+   "Nummer": 445,
+   "Bezeichnung": "Midibus, Evobus Citaro K, 445",
+   "FIELD3": "",
+   "Besonderheiten ": {
+      " Bemerkungen": ""
+   },
+   "Einsatz": "Linie 16, 26, 27, 29, 160, 161, 162, 163,165, 167, 331, 332",
+   "Antriebssystem": "Diesel",
+   "Sitzplätze": 23,
+   "Stehplätze": 60,
+   "Niederflur": "X",
+   "Fahrgastinfo innen akkustisch": "X",
+   "Fahrgastinfo innen optisch": "X",
+   "Fahrgastinfo aussen optisch": "X"
+}
+]

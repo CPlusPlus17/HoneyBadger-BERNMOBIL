@@ -1,0 +1,104 @@
+    /**
+     * (C) 2008-2012, Trapeze Switzerland GmbH. All rights reserved.
+     *
+     * Original model object: mhcc.app.dataprovider.model.tdiinterface.dstructs.passenger_alert_tdi
+     *
+     * Automatically generated. DO NOT CHANGE THIS FILE MANUALLY!
+     *
+     */
+
+    syntax = "proto2";
+    package mhcc.app.dataprovider.model.tdiinterface.dstructs;
+    option java_outer_classname = "PassengerAlertTdiDTO";
+
+    import "ReferenceSupport.proto";
+
+        /**            
+    This struct represents an alert that has been defined by the dispatcher.    
+        */
+
+    /** structTag=0xc529 */
+    message PassengerAlertTdi {
+
+        /**            
+        * Identifier guaranteed to be unique within a single deployment, i.e. not a
+        * globally unique identifier (GUID).    
+        */
+        //TYPE-DESC: Duid sint64
+        //TYPE-CONST: MIN -9223372036854775807
+        //TYPE-CONST: MAX 9223372036854775807
+        required sint64 duid = 0x0001;
+
+        /**            
+        * Time stamp for the (last) time the object was created or updated.    
+        */
+        //TYPE-DESC: AbsoluteTimeMillis sint64
+        required sint64 last_modification_timestamp = 0x0002;
+
+        /**            
+        * Determines whether this object is marked as 'deleted' in a logical sense.    
+        */
+        required bool is_deleted = 0x0003;
+
+        /**            
+        * the type of passenger alert (general special text, route-specific special text, trip-specific special text)    
+        */
+        //TYPE-DESC: PassengerAlertType uint32
+        //TYPE-CONST: GENERAL_SPECIAL_TEXT 1
+        //TYPE-CONST: ROUTE_SPECIAL_TEXT 2
+        //TYPE-CONST: TRIP_SPECIAL_TEXT 3
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 0
+        required uint32 alert_type = 0x0020;
+
+        /**            
+        * target list: entities (depending on alert type: routes or trips) which are affected by the alert    
+        */
+        //TYPE: AlertEntityTdi
+        repeated mhcc.app.protobuf.commons.Reference affected_entities_duids = 0x0021;
+
+        /**            
+        * affected direction (only relevant if affected entity is a single route)    
+        */
+        //TYPE-DESC: RouteDirection uint32
+        //TYPE-CONST: NO_DIRECTION 0
+        //TYPE-CONST: DIRECTION_A 1
+        //TYPE-CONST: DIRECTION_B 2
+        //TYPE-CONST: DIRECTION_A_AND_B 3
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 0
+        optional uint32 affected_direction = 0x0023;
+
+        /**            
+        * list of informed entities: entities (currently only stop points) at which passengers should be informed about the situation    
+        */
+        //TYPE: AlertEntityTdi
+        repeated mhcc.app.protobuf.commons.Reference informed_entities_duids = 0x0022;
+
+        /**            
+        * unstructured info: the main headline (can have multiple parts, separated by "newline" characters; can be empty for trip-specific special texts, in case only the destination text is replaced)    
+        */
+        //TYPE-DESC: UtfString string
+        optional string title_text = 0x0030;
+
+        /**            
+        * unstructured info: the situation (only used for general special text, in case "structured passenger information" is used by the dispatcher)    
+        */
+        //TYPE-DESC: UtfString string
+        optional string situation_text = 0x0031;
+
+        /**            
+        * unstructured info: the situation (only used for general special text, in case "structured passenger information" is used by the dispatcher)    
+        */
+        //TYPE-DESC: UtfString string
+        repeated string recommendation_texts = 0x0032;
+
+        /**            
+        * unstructured info: the text that should be presented instead of origin or destination text of trip (only used for trip-specific special texts)    
+        */
+        //TYPE-DESC: UtfString string
+        optional string replacement_text = 0x0033;
+    
+    
+    }
+  

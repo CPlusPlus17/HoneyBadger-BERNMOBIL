@@ -1,0 +1,323 @@
+    /**
+     * (C) 2008-2012, Trapeze Switzerland GmbH. All rights reserved.
+     *
+     * Original model object: mhcc.app.dataprovider.model.tdiinterface.dstructs.fixed_display_unit_tdi
+     *
+     * Automatically generated. DO NOT CHANGE THIS FILE MANUALLY!
+     *
+     */
+
+    syntax = "proto2";
+    package mhcc.app.dataprovider.model.tdiinterface.dstructs;
+    option java_outer_classname = "FixedDisplayUnitTdiDTO";
+
+    import "ReferenceSupport.proto";
+    import "RouteDirectionFilterTdi.proto";
+
+        /**            
+    A fixed display unit is a physical device
+that is mounted to a fixed location to provide
+information (stop passages, passenger alerts) to the travellers.    
+        */
+
+    /** structTag=0xc52b */
+    message FixedDisplayUnitTdi {
+
+        /**            
+        * Identifier guaranteed to be unique within a single deployment, i.e. not a
+        * globally unique identifier (GUID).    
+        */
+        //TYPE-DESC: Duid sint64
+        //TYPE-CONST: MIN -9223372036854775807
+        //TYPE-CONST: MAX 9223372036854775807
+        required sint64 duid = 0x0001;
+
+        /**            
+        * Time stamp for the (last) time the object was created or updated.    
+        */
+        //TYPE-DESC: AbsoluteTimeMillis sint64
+        required sint64 last_modification_timestamp = 0x0002;
+
+        /**            
+        * Determines whether this object is marked as 'deleted' in a logical sense.    
+        */
+        required bool is_deleted = 0x0003;
+
+        /**            
+        * index of fixed display unit    
+        */
+        //TYPE-DESC: FixedDisplayUnitIndex sint32
+        //TYPE-CONST: INVALID 2147483645
+        //TYPE-CONST: NOTHING 0
+        //TYPE-CONST: UNDEFINED 2147483647
+        //TYPE-CONST: MIN 1
+        //TYPE-CONST: MAX 2147483644
+        required sint32 index = 0x0050;
+
+        /**            
+        * technical number of fixed display unit    
+        */
+        //TYPE-DESC: TechnicalNumber uint32
+        //TYPE-CONST: INVALID 65533
+        //TYPE-CONST: NOTHING 0
+        //TYPE-CONST: UNDEFINED 65535
+        //TYPE-CONST: VEHICLE_GROUP_0 8191
+        //TYPE-CONST: LOCKED_0 8192
+        //TYPE-CONST: VEHICLE_GROUP_1 16383
+        //TYPE-CONST: LOCKED_1 16834
+        //TYPE-CONST: VEHICLE_GROUP_2 24575
+        //TYPE-CONST: LOCKED_2 24576
+        //TYPE-CONST: VEHICLE_GROUP_3 32767
+        //TYPE-CONST: MIN 1
+        //TYPE-CONST: MAX 32767
+        required uint32 number = 0x0051;
+
+        /**            
+        * short name of fixed display unit    
+        */
+        //TYPE-DESC: UtfString string
+        required string short_name = 0x0052;
+
+        /**            
+        * long name of fixed display unit    
+        */
+        //TYPE-DESC: UtfString string
+        optional string long_name = 0x0053;
+
+        /**            
+        * description of fixed display unit    
+        */
+        //TYPE-DESC: UtfString string
+        optional string long_desc = 0x0054;
+
+        /**            
+        * latitude of fixed display unit    
+        */
+        //TYPE-DESC: AbsoluteLatitude sint32
+        //TYPE-CONST: INVALID 324000002
+        //TYPE-CONST: NOTHING 324000003
+        //TYPE-CONST: UNDEFINED 324000004
+        //TYPE-CONST: UNDERFLOW -324000001
+        //TYPE-CONST: OVERFLOW 324000001
+        //TYPE-CONST: MIN -324000000
+        //TYPE-CONST: MAX 324000000
+        optional sint32 latitude = 0x0056;
+
+        /**            
+        * longitude of fixed display unit    
+        */
+        //TYPE-DESC: AbsoluteLongitude sint32
+        //TYPE-CONST: INVALID 648000002
+        //TYPE-CONST: NOTHING 648000003
+        //TYPE-CONST: UNDEFINED 648000004
+        //TYPE-CONST: UNDERFLOW -648000001
+        //TYPE-CONST: OVERFLOW 648000001
+        //TYPE-CONST: MIN -648000000
+        //TYPE-CONST: MAX 648000000
+        optional sint32 longitude = 0x0057;
+
+        /**            
+        * display bit number of fixed display unit (unique within its controller)    
+        */
+        //TYPE-DESC: DisplayBitNumber uint32
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 254
+        //TYPE-CONST: DISPLAY_0 0
+        //TYPE-CONST: DISPLAY_1 1
+        //TYPE-CONST: DISPLAY_2 2
+        //TYPE-CONST: DISPLAY_3 3
+        //TYPE-CONST: DISPLAY_4 4
+        //TYPE-CONST: DISPLAY_5 5
+        //TYPE-CONST: DISPLAY_6 6
+        //TYPE-CONST: DISPLAY_7 7
+        //TYPE-CONST: DISPLAY_8 8
+        //TYPE-CONST: DISPLAY_9 9
+        //TYPE-CONST: DISPLAY_10 10
+        //TYPE-CONST: DISPLAY_11 11
+        //TYPE-CONST: DISPLAY_12 12
+        //TYPE-CONST: DISPLAY_13 13
+        //TYPE-CONST: DISPLAY_14 14
+        //TYPE-CONST: DISPLAY_15 14
+        //TYPE-CONST: JUMPING_DOT_DISPLAY 15
+        //TYPE-CONST: MIN 0
+        //TYPE-CONST: MAX 99
+        optional uint32 display_unit_bit_number = 0x0058;
+
+        /**            
+        * optional route/direction filter for the fixed display unit
+        * (empty = no filter, non-empty = display only specified routes/directions)    
+        */
+        repeated mhcc.app.dataprovider.model.tdiinterface.dstructs.RouteDirectionFilterTdi displayed_route_directions = 0x0059;
+
+        /**            
+        * entities (stop points, stops, ...) for which stop passages should be displayed    
+        */
+        //TYPE: PassageEntityTdi
+        repeated mhcc.app.protobuf.commons.Reference relevant_entities_duids = 0x005a;
+
+        /**            
+        * The identity of transport authority owner of this object    
+        */
+        //TYPE-DESC: TechnicalNumber uint32
+        //TYPE-CONST: INVALID 65533
+        //TYPE-CONST: NOTHING 0
+        //TYPE-CONST: UNDEFINED 65535
+        //TYPE-CONST: VEHICLE_GROUP_0 8191
+        //TYPE-CONST: LOCKED_0 8192
+        //TYPE-CONST: VEHICLE_GROUP_1 16383
+        //TYPE-CONST: LOCKED_1 16834
+        //TYPE-CONST: VEHICLE_GROUP_2 24575
+        //TYPE-CONST: LOCKED_2 24576
+        //TYPE-CONST: VEHICLE_GROUP_3 32767
+        //TYPE-CONST: MIN 1
+        //TYPE-CONST: MAX 32767
+        optional uint32 authority_number = 0x005b;
+
+        /**            
+        * DPI system type taken from junction controller specification    
+        */
+        //TYPE-DESC: DpiSystemType uint32
+        //TYPE-CONST: PACOS 1
+        //TYPE-CONST: SICU 2
+        //TYPE-CONST: STR 3
+        //TYPE-CONST: WDF 4
+        //TYPE-CONST: TDI 5
+        //TYPE-CONST: OLIF 6
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 0
+        optional uint32 dpi_system_type = 0x005c;
+
+        /**            
+        * short name of display unit type    
+        */
+        //TYPE-DESC: UtfString string
+        required string type_short_name = 0x0070;
+
+        /**            
+        * width of display unit type    
+        */
+        //TYPE-DESC: SizePx uint32
+        //TYPE-CONST: INVALID 65533
+        //TYPE-CONST: NOTHING 0
+        //TYPE-CONST: MIN 1
+        //TYPE-CONST: MAX 65532
+        required uint32 type_width = 0x0071;
+
+        /**            
+        * height of display unit type    
+        */
+        //TYPE-DESC: SizePx uint32
+        //TYPE-CONST: INVALID 65533
+        //TYPE-CONST: NOTHING 0
+        //TYPE-CONST: MIN 1
+        //TYPE-CONST: MAX 65532
+        required uint32 type_height = 0x0072;
+
+        /**            
+        * number of rows of display unit type    
+        */
+        //TYPE-DESC: Count uint64
+        //TYPE-CONST: INVALID 1000000001
+        //TYPE-CONST: NOTHING 1000000002
+        //TYPE-CONST: OVERFLOW 1000000000
+        //TYPE-CONST: MIN 0
+        //TYPE-CONST: MAX 999999999
+        optional uint64 type_nof_rows = 0x0073;
+
+        /**            
+        * technology of display unit type    
+        */
+        //TYPE-DESC: DisplayTechnology uint32
+        //TYPE-CONST: LED 1
+        //TYPE-CONST: LCD 2
+        //TYPE-CONST: FLIP_DOT 3
+        //TYPE-CONST: MONITOR 4
+        //TYPE-CONST: VFT 5
+        //TYPE-CONST: OLIF 6
+        //TYPE-CONST: MFD 7
+        //TYPE-CONST: TFT 8
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 0
+        required uint32 type_technology = 0x0074;
+
+        /**            
+        * interface of display unit type    
+        */
+        //TYPE-DESC: DisplayInterface uint32
+        //TYPE-CONST: STANDARD 1
+        //TYPE-CONST: BROSE 2
+        //TYPE-CONST: MABEG 3
+        //TYPE-CONST: DAMBACH 4
+        //TYPE-CONST: GEC 5
+        //TYPE-CONST: LUMINO 6
+        //TYPE-CONST: GORBA 7
+        //TYPE-CONST: MITRON 8
+        //TYPE-CONST: AVV 9
+        //TYPE-CONST: ISOLECTRA 10
+        //TYPE-CONST: HTTP_WDF 11
+        //TYPE-CONST: NTCIP 12
+        //TYPE-CONST: RESERVE_13 13
+        //TYPE-CONST: RESERVE_14 14
+        //TYPE-CONST: RESERVE_15 15
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 0
+        //TYPE-CONST: UNDEFINED 255
+        required uint32 type_interface = 0x0075;
+
+        /**            
+        * short name of control unit    
+        */
+        //TYPE-DESC: UtfString string
+        required string control_unit_short_name = 0x0080;
+
+        /**            
+        * long name of control unit    
+        */
+        //TYPE-DESC: UtfString string
+        optional string control_unit_long_name = 0x0081;
+
+        /**            
+        * long description of control unit    
+        */
+        //TYPE-DESC: UtfString string
+        optional string control_unit_long_desc = 0x0082;
+
+        /**            
+        * latitude where the control unit (with its displays) is mounted    
+        */
+        //TYPE-DESC: AbsoluteLatitude sint32
+        //TYPE-CONST: INVALID 324000002
+        //TYPE-CONST: NOTHING 324000003
+        //TYPE-CONST: UNDEFINED 324000004
+        //TYPE-CONST: UNDERFLOW -324000001
+        //TYPE-CONST: OVERFLOW 324000001
+        //TYPE-CONST: MIN -324000000
+        //TYPE-CONST: MAX 324000000
+        optional sint32 control_unit_latitude = 0x0084;
+
+        /**            
+        * longitude where the control unit (with its displays) is mounted    
+        */
+        //TYPE-DESC: AbsoluteLongitude sint32
+        //TYPE-CONST: INVALID 648000002
+        //TYPE-CONST: NOTHING 648000003
+        //TYPE-CONST: UNDEFINED 648000004
+        //TYPE-CONST: UNDERFLOW -648000001
+        //TYPE-CONST: OVERFLOW 648000001
+        //TYPE-CONST: MIN -648000000
+        //TYPE-CONST: MAX 648000000
+        optional sint32 control_unit_longitude = 0x0085;
+
+        /**            
+        * interface type of the control unit    
+        */
+        //TYPE-DESC: InterfaceType uint32
+        //TYPE-CONST: NLS 1
+        //TYPE-CONST: XIP 2
+        //TYPE-CONST: WDF 3
+        //TYPE-CONST: TDI 4
+        required uint32 control_unit_interface = 0x0089;
+    
+    
+    }
+  

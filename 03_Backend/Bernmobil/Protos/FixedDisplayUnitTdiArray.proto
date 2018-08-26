@@ -1,0 +1,19 @@
+    /**
+     * (C) 2008-2012, Trapeze Switzerland GmbH. All rights reserved.
+     *
+     * Original model object: mhcc.app.dataprovider.model.tdiinterface.dstructs.fixed_display_unit_tdi
+     *
+     * Automatically generated. DO NOT CHANGE THIS FILE MANUALLY!
+     *
+     */
+
+    syntax = "proto2";
+    package mhcc.app.dataprovider.model.tdiinterface.dstructs;
+    option java_outer_classname = "FixedDisplayUnitTdiArrayDTO";
+
+    import "FixedDisplayUnitTdi.proto";
+
+    message FixedDisplayUnitTdiArray {
+        repeated FixedDisplayUnitTdi fixedDisplayUnitTdiArray = 1;
+    }
+  

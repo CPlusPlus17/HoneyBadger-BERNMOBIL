@@ -1,0 +1,55 @@
+    /**
+     * (C) 2008-2012, Trapeze Switzerland GmbH. All rights reserved.
+     *
+     * Original model object: mhcc.app.dataprovider.model.tdiinterface.dstructs.version_tdi
+     *
+     * Automatically generated. DO NOT CHANGE THIS FILE MANUALLY!
+     *
+     */
+
+    syntax = "proto2";
+    package mhcc.app.dataprovider.model.tdiinterface.dstructs;
+    option java_outer_classname = "VersionTdiDTO";
+
+
+        /**            
+    This struct is a means to convey the current data version of the LIO system.    
+        */
+
+    /** structTag=0xc52a */
+    message VersionTdi {
+
+        /**            
+        * Identifier guaranteed to be unique within a single deployment, i.e. not a
+        * globally unique identifier (GUID).    
+        */
+        //TYPE-DESC: Duid sint64
+        //TYPE-CONST: MIN -9223372036854775807
+        //TYPE-CONST: MAX 9223372036854775807
+        required sint64 duid = 0x0001;
+
+        /**            
+        * Time stamp for the (last) time the object was created or updated.    
+        */
+        //TYPE-DESC: AbsoluteTimeMillis sint64
+        required sint64 last_modification_timestamp = 0x0002;
+
+        /**            
+        * Determines whether this object is marked as 'deleted' in a logical sense.    
+        */
+        required bool is_deleted = 0x0003;
+
+        /**            
+        * The current data version.    
+        */
+        //TYPE-DESC: BaseVersion uint64
+        //TYPE-CONST: INVALID 2147483645
+        //TYPE-CONST: NOTHING 0
+        //TYPE-CONST: UNDEFINED 2147483647
+        //TYPE-CONST: MIN 1
+        //TYPE-CONST: MAX 2147483644
+        optional uint64 base_version = 0x0020;
+    
+    
+    }
+  

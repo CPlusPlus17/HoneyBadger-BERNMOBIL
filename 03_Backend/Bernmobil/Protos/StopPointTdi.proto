@@ -1,0 +1,163 @@
+    /**
+     * (C) 2008-2012, Trapeze Switzerland GmbH. All rights reserved.
+     *
+     * Original model object: mhcc.app.dataprovider.model.tdiinterface.dstructs.stop_point_tdi
+     *
+     * Automatically generated. DO NOT CHANGE THIS FILE MANUALLY!
+     *
+     */
+
+    syntax = "proto2";
+    package mhcc.app.dataprovider.model.tdiinterface.dstructs;
+    option java_outer_classname = "StopPointTdiDTO";
+
+    import "ReferenceSupport.proto";
+
+        /**            
+    Stop point (stopping bay/kerb) for display at certain zoom levels (more detail than "stop").    
+        */
+
+    /** structTag=0xc521 */
+    message StopPointTdi {
+
+        /**            
+        * Identifier guaranteed to be unique within a single deployment, i.e. not a
+        * globally unique identifier (GUID).    
+        */
+        //TYPE-DESC: Duid sint64
+        //TYPE-CONST: MIN -9223372036854775807
+        //TYPE-CONST: MAX 9223372036854775807
+        required sint64 duid = 0x0001;
+
+        /**            
+        * Time stamp for the (last) time the object was created or updated.    
+        */
+        //TYPE-DESC: AbsoluteTimeMillis sint64
+        required sint64 last_modification_timestamp = 0x0002;
+
+        /**            
+        * Determines whether this object is marked as 'deleted' in a logical sense.    
+        */
+        required bool is_deleted = 0x0003;
+
+        /**            
+        * The type of geo point (might be other than stop point).    
+        */
+        //TYPE-DESC: GeoPointType uint32
+        //TYPE-CONST: STOP_POINT 1
+        //TYPE-CONST: VEHICLE_GARAGE_GN 2
+        //TYPE-CONST: TURNOVER_POINT 3
+        //TYPE-CONST: VEHICLE_PARK_POINT 4
+        //TYPE-CONST: PATTERN_INTERCHANGE_POINT 5
+        //TYPE-CONST: SUPP_POINT 6
+        //TYPE-CONST: BEACON_POINT 7
+        //TYPE-CONST: RESTRICTION_POINT 8
+        //TYPE-CONST: EMPL_GARAGE_POINT 9
+        //TYPE-CONST: GPS_CORRECTION_POINT 10
+        //TYPE-CONST: SPEEDPOINT 11
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 0
+        required uint32 type = 0x0020;
+
+        /**            
+        * The stop this stop point is associated with.    
+        */
+        //TYPE: StopTdi
+        required mhcc.app.protobuf.commons.Reference stop_duid = 0x0021;
+
+        /**            
+        * The number identifying this stop point within its stop.    
+        */
+        //TYPE-DESC: GeoPointNumber sint32
+        //TYPE-CONST: INVALID 2147483645
+        //TYPE-CONST: NOTHING 2147483646
+        //TYPE-CONST: UNDEFINED 2147483647
+        //TYPE-CONST: MIN -2147483648
+        //TYPE-CONST: MAX 2147483644
+        required sint32 number = 0x0022;
+
+        /**            
+        * The long name of the stop point.    
+        */
+        //TYPE-DESC: UtfString string
+        required string long_name = 0x0023;
+
+        /**            
+        * The name of the stop point's platform.    
+        */
+        //TYPE-DESC: UtfString string
+        optional string platform_name = 0x0024;
+
+        /**            
+        * The latitude of the stop point's location.    
+        */
+        //TYPE-DESC: AbsoluteLatitude sint32
+        //TYPE-CONST: INVALID 324000002
+        //TYPE-CONST: NOTHING 324000003
+        //TYPE-CONST: UNDEFINED 324000004
+        //TYPE-CONST: UNDERFLOW -324000001
+        //TYPE-CONST: OVERFLOW 324000001
+        //TYPE-CONST: MIN -324000000
+        //TYPE-CONST: MAX 324000000
+        required sint32 latitude = 0x0025;
+
+        /**            
+        * The longitude of the stop point's location.    
+        */
+        //TYPE-DESC: AbsoluteLongitude sint32
+        //TYPE-CONST: INVALID 648000002
+        //TYPE-CONST: NOTHING 648000003
+        //TYPE-CONST: UNDEFINED 648000004
+        //TYPE-CONST: UNDERFLOW -648000001
+        //TYPE-CONST: OVERFLOW 648000001
+        //TYPE-CONST: MIN -648000000
+        //TYPE-CONST: MAX 648000000
+        required sint32 longitude = 0x0026;
+
+        /**            
+        * The compass bearing of the platform (in driving direction).    
+        */
+        //TYPE-DESC: CompassBearing uint32
+        //TYPE-CONST: INVALID 65533
+        //TYPE-CONST: NOTHING 65534
+        //TYPE-CONST: UNDEFINED 65535
+        //TYPE-CONST: NORTH 0
+        //TYPE-CONST: EAST 90
+        //TYPE-CONST: SOUTH 180
+        //TYPE-CONST: WEST 270
+        //TYPE-CONST: DEFAULT 0
+        //TYPE-CONST: MIN 0
+        //TYPE-CONST: MAX 359
+        optional uint32 bearing = 0x0027;
+
+        /**            
+        * Indication for high platform (or other "accessibility" feature)    
+        */
+        //TYPE-DESC: YesNo uint32
+        //TYPE-CONST: NO 0
+        //TYPE-CONST: YES 1
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 254
+        //TYPE-CONST: UNDEFINED 255
+        optional uint32 is_accessible = 0x0028;
+
+        /**            
+        * Indication that this stop point is temporarily closed.    
+        */
+        //TYPE-DESC: YesNo uint32
+        //TYPE-CONST: NO 0
+        //TYPE-CONST: YES 1
+        //TYPE-CONST: INVALID 253
+        //TYPE-CONST: NOTHING 254
+        //TYPE-CONST: UNDEFINED 255
+        optional uint32 is_temporarily_closed = 0x0029;
+
+        /**            
+        * The reference code of the stop point.    
+        */
+        //TYPE-DESC: UtfString string
+        optional string code = 0x002a;
+    
+    
+    }
+  
